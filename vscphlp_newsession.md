@@ -1,12 +1,5 @@
-#
-# Initialization
-
-This part describe the main functionality and communication methods available in the library. 
-
 {% method %}
 ## vscphlp_newSession
-
- 
 
 ```c
 long vscphlp_newSession( void )
