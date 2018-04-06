@@ -43,5 +43,6 @@ $ My first method
 ```
 
 ###See Also
+[vscphlp_closeSession](vscphlp_closesession.md)
 
 {% endmethod %}
