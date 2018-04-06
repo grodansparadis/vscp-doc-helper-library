@@ -1,3 +1,6 @@
+# Defining Methods
+
+
 {% method %}
 ## vscphlp_newSession
 
