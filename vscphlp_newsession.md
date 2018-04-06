@@ -14,7 +14,6 @@ A session handle or zero if a session could not be created.
 ###Description
 Opens a new communication session. This is the first method that should be called before TCP/IP communication can be established.
 
-###Example
 {% sample lang="c" %}
 Initialize the library using c.
 
