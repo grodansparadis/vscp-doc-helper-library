@@ -3,7 +3,7 @@
 ## Overview
 
 * [The VSCP helper library](README.md)
-* [Bindings](bindings.md)
+* [Language Bindings](bindings.md)
 
 ## Methods
 
