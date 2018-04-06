@@ -19,13 +19,13 @@ Opens a new communication session. This is the first method that should be calle
 Initialize the library using c.
 
 ```c
-    handle1 = vscphlp_newSession();
-    if (0 != handle1 ) {
-        printf( "Handle for channel 1 OK %d\n", handle1 );
-    }
-    else {
-        printf("\aError: Failed to get handle for channel 1\n");
-    }
+handle1 = vscphlp_newSession();
+if (0 != handle1 ) {
+    printf( "Handle for channel 1 OK %d\n", handle1 );
+}
+else {
+    printf("\aError: Failed to get handle for channel 1\n");
+}
 ```
 
 {% sample lang="python" %}
