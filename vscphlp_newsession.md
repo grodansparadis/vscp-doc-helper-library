@@ -28,7 +28,7 @@ else {
 ```
 
 {% sample lang="python" %}
-Initialize the library using Pyhton.
+Open a new session using Pyhton.
 
 ```python
 fmt.Println("My first method")
