@@ -12,3 +12,5 @@ The library is currently available for Unix/Linux and for Windows.
 
 The library is licensense: under [the  MIT License](https://opensource.org/licenses/MIT).
 
+Viewable/downloadable documentation is [here](https://legacy.gitbook.com/book/grodansparadis/the-vscp-helper-library/details)
+
