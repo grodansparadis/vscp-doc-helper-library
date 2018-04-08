@@ -6,22 +6,21 @@
 * [Language Bindings](bindings.md)
 
 ## Using the library
-
-## Using with Python
+[Using with c](c_using.md)
+[Using with Python](python_using.md)
 
 ## Using C++ classes
-### Introduction
-### First project
-### Available methods
+[Introduction](cpp_intro.md)
+[First project](cpp_firstprj.md)
+[Available methods](cpp_methods.md)
 
 ## The CANAL library
-### libcanal
-### Using the library
+[libcanal](canal_libcanal.md)
+[Using the library](canal_using.md)
 
 ## Methods
 
 ### Initialization
-
 * [vscphlp_newSession](vscphlp_newsession.md)
 * [vscphlp_closeSession](vscphlp_closesession.md)
 
@@ -32,8 +31,5 @@
 ### Variables
 
 ### Tables
-
-
-
 * [Defining Methods](methods.md)
 

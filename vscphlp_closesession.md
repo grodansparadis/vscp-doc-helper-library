@@ -34,15 +34,12 @@ else {
 Initialize the library using Pyhton.
 
 ```python
-fmt.Println("My first method")
+h1 = pyvscphlp_newSession()
+if (0 == h1 ):
+    pyvscphlp_closeSession(h1)
+    raise ValueError('Unable to open vscphelp library session')
 ```
 
-{% common %}
-Whatever language you are using, the result will be the same.
-
-```bash
-$ My first method
-```
 
 ###See Also
 [vscphlp_closeSession](vscphlp_closesession.md)
