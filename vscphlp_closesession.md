@@ -34,12 +34,8 @@ else {
 Initialize the library using Pyhton.
 
 ```python
-h1 = pyvscphlp_newSession()
-if (0 == h1 ):
-    pyvscphlp_closeSession(h1)
-    raise ValueError('Unable to open vscphelp library session')
+pyvscphlp_closeSession(h1)
 ```
-
 
 ###See Also
 [vscphlp_closeSession](vscphlp_closesession.md)
