@@ -8,13 +8,17 @@ This part describe the main functionality and communication methods available in
 
 Opens a new communication session. This is the first method that should be called before TCP/IP communication can be established. 
 
-long vscphlp_newSession( void )
+```c
+    long vscphlp_newSession( void );
+```
 
 ###Parameters
 none
 
 ###Return Value
 A session handle or zero if a session could not be created. 
+
+###Description
 
 {% sample lang="c" %}
 Initialize the library using c.
@@ -28,6 +32,7 @@ Initialize the library using c.
         printf("\aError: Failed to get handle for channel 1\n");
     }
 ```
+###Example
 
 {% sample lang="python" %}
 Initialize the library using Pyhton.
@@ -42,4 +47,8 @@ Whatever language you are using, the result will be the same.
 ```bash
 $ My first method
 ```
+
+###See Also
+
+
 {% endmethod %}
