@@ -2,8 +2,7 @@
 ## vscphlp_newSession
 
 ```c
-    long vscphlp_newSession( void );
-
+long vscphlp_newSession( void );
 ```
 
 ### Parameters

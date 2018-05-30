@@ -6,18 +6,18 @@
 * [Language Bindings](bindings.md)
 
 ## Using the library
-[Return values and erro handling](error_handling.md)
-[Using with c](c_using.md)
-[Using with Python](python_using.md)
+* [Return values and erro handling](error_handling.md)
+* [Using with c](c_using.md)
+* [Using with Python](python_using.md)
 
 ## Using C++ classes
-[Introduction](cpp_intro.md)
-[First project](cpp_firstprj.md)
-[Available methods](cpp_methods.md)
+* [Introduction](cpp_intro.md)
+* [First project](cpp_firstprj.md)
+* [Available methods](cpp_methods.md)
 
 ## The CANAL library
-[libcanal](canal_libcanal.md)
-[Using the library](canal_using.md)
+* [libcanal](canal_libcanal.md)
+* [Using the library](canal_using.md)
 
 ## Methods
 
@@ -28,6 +28,7 @@
 * [vscphlp_setAfterCommandSleep](vscphlp_setaftercommandsleep.md)
 
 ### Main functions
+* []()
 
 ### General helpers
 

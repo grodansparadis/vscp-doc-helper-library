@@ -2,11 +2,13 @@
 ## vscphlp_setAfterCommandSleep
 
 ```c
-int vscphlp_setAfterCommandSleep( long handle, unsigned short millisecondSleep )
+int vscphlp_setAfterCommandSleep( long handle, 
+                unsigned short millisecondSleep )
 ```
 
 ```python
-int vscphlp_setAfterCommandSleep( handle, millisecondSleep )
+int vscphlp_setAfterCommandSleep( handle, 
+                                millisecondSleep )
 ```
 
 ### Parameters

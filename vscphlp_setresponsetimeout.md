@@ -2,11 +2,13 @@
 ## vscphlp_setResponseTimeout
 
 ```c
-int vscphlp_setResponseTimeout( long handle, unsigned long timeout )
+int vscphlp_setResponseTimeout( long handle, 
+                        unsigned long timeout )
 ```
 
 ```python
-int pyvscphlp_setResponseTimeout( handle, timeout )
+int pyvscphlp_setResponseTimeout( handle, 
+                                    timeout )
 ```
 
 ### Parameters
