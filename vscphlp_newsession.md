@@ -16,7 +16,6 @@ A session handle or zero if a session could not be created.
 
 Opens a new communication session. This is the first method that should be called before TCP/IP communication can be established.
 
-### Example
 {% sample lang="c" %}
 
 Initialize the library using c.
@@ -30,7 +29,6 @@ else {
     printf("\aError: Failed to get handle for channel 1\n");
 }
 ```
-### Example
 {% sample lang="python" %}
 
 Open a new session using Python.
@@ -43,13 +41,13 @@ if (0 == h1 ):
 ```
 
 {% common %}
-Whatever language you are using, the result will be the same.
+Common sample here
 
 ```bash
 $ My first method
 ```
 
-###See Also
+### See Also
 [vscphlp_closeSession](vscphlp_closesession.md)
 
 {% endmethod %}
