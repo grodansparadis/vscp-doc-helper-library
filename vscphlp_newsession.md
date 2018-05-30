@@ -16,7 +16,8 @@ A session handle or zero if a session could not be created.
 
 Opens a new communication session. This is the first method that should be called before TCP/IP communication can be established.
 
-**Example** {% sample lang="c" %}
+### Example
+{% sample lang="c" %}
 
 Initialize the library using c.
 
@@ -30,9 +31,9 @@ else {
 }
 ```
 ### Example
-
 {% sample lang="python" %}
-Open a new session using Pyhton.
+
+Open a new session using Python.
 
 ```python
 h1 = pyvscphlp_newSession()

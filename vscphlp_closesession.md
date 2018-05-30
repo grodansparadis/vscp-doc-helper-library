@@ -1,11 +1,8 @@
-# Defining Methods
-
-
 {% method %}
 ## vscphlp_newSession
 
 ```c
-long vscphlp_newSession( void )
+long vscphlp_closeSession( void )
 ```
 
 ### Parameters
