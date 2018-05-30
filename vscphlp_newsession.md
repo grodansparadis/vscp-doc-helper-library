@@ -16,6 +16,12 @@ A session handle or zero if a session could not be created.
 
 Opens a new communication session. This is the first method that should be called before TCP/IP communication can be established.
 
+kjksd dskdsj skdjsk ksjdks dkskdskdks kdksjdkjksdjk skdjksjdkjs dkksjdkksdj skdjks jdkskdksdj skdksjdkjksdjksjdkjs dksjkdjskdksjkdjksdjks jdksj dksjdkjskdjksjdkjs kdksjd ksnmdkjskdjksjdk sjkdoisjdksjkdjskdjk,s dkjsk dksjdkjskdjksdjksjdk skdkjs dkjs dkjskdjksjdkjskdjksjdksjkdjs dkjskdkjskdjksjdk skdksdkjskdjjskdkksjdksjdk sdksjdkjsjdksdkjskdjskdjskdjksjdksjkdjksjd
+
+kjksd dskdsj skdjsk ksjdks dkskdskdks kdksjdkjksdjk skdjksjdkjs dkksjdkksdj skdjks jdkskdksdj skdksjdkjksdjksjdkjs dksjkdjskdksjkdjksdjks jdksj dksjdkjskdjksjdkjs kdksjd ksnmdkjskdjksjdk sjkdoisjdksjkdjskdjk,s dkjsk dksjdkjskdjksdjksjdk skdkjs dkjs dkjskdjksjdkjskdjksjdksjkdjs dkjskdkjskdjksjdk skdksdkjskdjjskdkksjdksjdk sdksjdkjsjdksdkjskdjskdjskdjksjdksjkdjksjd
+
+kjksd dskdsj skdjsk ksjdks dkskdskdks kdksjdkjksdjk skdjksjdkjs dkksjdkksdj skdjks jdkskdksdj 
+
 {% sample lang="c" %}
 
 Initialize the library using c.
@@ -47,7 +53,7 @@ Common sample here
 $ My first method
 ```
 
-### See Also
+### See also
 [vscphlp_closeSession](vscphlp_closesession.md)
 
 {% endmethod %}
