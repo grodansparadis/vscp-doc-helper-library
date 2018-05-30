@@ -1,41 +1,53 @@
 {% method %}
-## vscphlp_newSession
+## vscphlp_closeSession
 
 ```c
-long vscphlp_closeSession( void )
+void vscphlp_closeSession( long handle )
 ```
 
 ### Parameters
 none
 
 ### Return Value
-A session handle or zero if a session could not be created. 
+Nothing
 
 ### Description
-Opens a new communication session. This is the first method that should be called before TCP/IP communication can be established.
+Close an open session. This is the last operation that should be done after you are done with a TCP/IP session. 
 
 **Example** {% sample lang="c" %}
-Initialize the library using c.
+This is a simple windows console example that log on to a server that is on the host 192.618.1.9 and standard port 9598 and issue the NOOP command and then terminates. You link to the vscphelper.lib library and make sure the vscphelper.dll is in the path. 
 
 ```c
-handle1 = vscphlp_newSession();
-if (0 != handle1 ) {
-    printf( "Handle for channel 1 OK %d\n", handle1 );
-}
-else {
-    printf("\aError: Failed to get handle for channel 1\n");
+#include "vscphelperlib.h"
+ 
+int main(int argc, char* argv[])
+{
+    long handle;
+    handle = vscphlp_newSession();
+ 
+    vscphlp_open( handle, 
+                 "127.0.0.1:9598",
+                 "admin",
+                 "secret" ); 
+ 
+    vscphlp_noop( handle );
+ 
+    vscphlp_close( handle );
+    vscphlp_closeSession( handle );
+ 
+    return 0;
 }
 ```
 
 {% sample lang="python" %}
-Initialize the library using Pyhton.
+There is no Python sample yet
 
 ```python
-pyvscphlp_closeSession(h1)
+
 ```
 
 ###See Also
-[vscphlp_closeSession](vscphlp_closesession.md)
+[vscphlp_closeSession](vscphlp_newsession.md)
 
 {% endmethod %}
 
