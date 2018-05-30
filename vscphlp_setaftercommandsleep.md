@@ -31,14 +31,14 @@ This is the sleep time in milliseconds used to wait for the server to reply to a
 ```
 
 {% sample lang="python" %}
-mmmmmmmmmm
+
 
 ```python
-xxxxxxxxxxxxx
+
 ```
 
 ### See Also
-[xxx](xxx.md)
+[vscphlp_setResponseTimeout](vscphlp_setresponsetimeout.md)
 
 {% endmethod %}
 

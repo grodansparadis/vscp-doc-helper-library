@@ -39,6 +39,9 @@ This is the timeout in seconds used when checking for replies after commands has
 
 ```
 
+### See also
+[vscphlp_setAfterCommandSleep](vscphlp_setaftercommandsleep.md)
+
 {% endmethod %}
 
 {% include "./bottom_copyright.md" %}
