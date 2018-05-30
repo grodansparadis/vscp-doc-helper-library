@@ -1,6 +1,6 @@
-vscphlp_blockingReceiveEvent
+
 {% method %}
-## vscphlp_xxx
+## vscphlp_blockingReceiveEvent
 
 ```c
 int vscphlp_blockingReceiveEvent( long handle, 

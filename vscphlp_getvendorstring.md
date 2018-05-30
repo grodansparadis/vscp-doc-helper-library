@@ -1,6 +1,6 @@
-vscphlp_getVendorString
+
 {% method %}
-## vscphlp_xxx
+## vscphlp_getVendorString
 
 ```c
 int vscphlp_getVendorString( long handle, 

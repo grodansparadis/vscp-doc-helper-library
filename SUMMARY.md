@@ -27,7 +27,7 @@
 * [vscphlp_setResponseTimeout](vscphlp_setresponsetimeout.md)
 * [vscphlp_setAfterCommandSleep](vscphlp_setaftercommandsleep.md)
 
-### Main methods
+### Communication link methods
 * [vscphlp_isConnected](vscphlp_isconnected.md)
 * [vscphlp_doCommand](vscphlp_docommand.md)
 * [vscphlp_checkReply](vscphlp_checkreply.md)
