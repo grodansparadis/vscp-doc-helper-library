@@ -21,9 +21,10 @@
 
 ## Methods
 
-### Initialization
+### Initialization and configuration
 * [vscphlp_newSession](vscphlp_newsession.md)
 * [vscphlp_closeSession](vscphlp_closesession.md)
+* [vscphlp_setResponseTimeout](vscphlp_setResponseTimeout.md)
 
 ### Main functions
 
