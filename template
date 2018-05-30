@@ -2,43 +2,37 @@
 
 
 {% method %}
-## vscphlp_newSession
+## vscphlp_xxx
 
 ```c
-long vscphlp_newSession( void )
+long tttt(void)
 ```
 
-###Parameters
+### Parameters
 none
 
-###Return Value
-A session handle or zero if a session could not be created. 
+### Return Value
+rrrr
 
-###Description
-Opens a new communication session. This is the first method that should be called before TCP/IP communication can be established.
+### Description
+bbbbbbbbbbbbbbbbbbbbbbbb
 
 **Example** {% sample lang="c" %}
-Initialize the library using c.
+mmmmmmmmmmmmmmmmmmmmmm
 
 ```c
-handle1 = vscphlp_newSession();
-if (0 != handle1 ) {
-    printf( "Handle for channel 1 OK %d\n", handle1 );
-}
-else {
-    printf("\aError: Failed to get handle for channel 1\n");
-}
+xxxxxxxxxxxxxxxxxxx
 ```
 
 {% sample lang="python" %}
-Initialize the library using Pyhton.
+mmmmmmmmmm
 
 ```python
-pyvscphlp_closeSession(h1)
+xxxxxxxxxxxxx
 ```
 
-###See Also
-[vscphlp_closeSession](vscphlp_closesession.md)
+### See Also
+[xxx](xxx.md)
 
 {% endmethod %}
 

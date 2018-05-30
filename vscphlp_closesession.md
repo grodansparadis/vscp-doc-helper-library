@@ -8,13 +8,13 @@
 long vscphlp_newSession( void )
 ```
 
-###Parameters
+### Parameters
 none
 
-###Return Value
+### Return Value
 A session handle or zero if a session could not be created. 
 
-###Description
+### Description
 Opens a new communication session. This is the first method that should be called before TCP/IP communication can be established.
 
 **Example** {% sample lang="c" %}

@@ -1,20 +1,18 @@
 {% method %}
 ## vscphlp_newSession
 
-Opens a new communication session. This is the first method that should be called before TCP/IP communication can be established. 
-
 ```c
     long vscphlp_newSession( void );
 
 ```
 
-###Parameters
+### Parameters
 none
 
-###Return Value
+### Return Value
 A session handle or zero if a session could not be created. 
 
-###Description
+### Description
 
 Opens a new communication session. This is the first method that should be called before TCP/IP communication can be established.
 
@@ -31,7 +29,7 @@ else {
     printf("\aError: Failed to get handle for channel 1\n");
 }
 ```
-###Example
+### Example
 
 {% sample lang="python" %}
 Open a new session using Pyhton.
