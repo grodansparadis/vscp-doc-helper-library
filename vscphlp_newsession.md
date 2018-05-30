@@ -51,8 +51,8 @@ $ My first method
 ```
 
 ###See Also
-
-=======
 [vscphlp_closeSession](vscphlp_closesession.md)
 
 {% endmethod %}
+
+{% include "./bottom_copyright.md" %}

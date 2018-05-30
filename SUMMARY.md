@@ -6,6 +6,7 @@
 * [Language Bindings](bindings.md)
 
 ## Using the library
+[Return values and erro handling](error_handling.md)
 [Using with c](c_using.md)
 [Using with Python](python_using.md)
 
