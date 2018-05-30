@@ -5,8 +5,9 @@
 void vscphlp_closeSession( long handle )
 ```
 
-### Parameters
-none
+#### handle
+Handle for the communication channel obtained from a call to [vscphlp_newsession](vscphlp_newsession.md).
+
 
 ### Return Value
 Nothing

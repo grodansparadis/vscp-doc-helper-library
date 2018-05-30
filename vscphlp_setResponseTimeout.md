@@ -13,8 +13,7 @@ int pyvscphlp_setResponseTimeout( handle, timeout )
 
 #### handle
 
-Handle for the communication channel obtained from a call to vscphlp_newSession.
-timeout
+Handle for the communication channel obtained from a call to [vscphlp_newSession](vscphlp_newsession.md).
 
 #### timeout 
 Timeout given in milliseconds. Can be set also before a session is open.
