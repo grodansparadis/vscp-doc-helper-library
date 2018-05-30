@@ -1,0 +1,46 @@
+{% method %}
+## vscphlp_xxx
+
+```c
+long tttt(void)
+```
+
+```python
+xxxx
+```
+
+### Parameters
+
+#### handle
+Handle for the communication channel obtained from a call to [vscphlp_newsession](vscphlp_newsession.md).
+
+### Return Value
+rrrr
+
+### Description
+bbbb
+
+**Example** {% sample lang="c" %}
+mmmm
+
+```c
+xxx
+```
+
+{% sample lang="python" %}
+mmm
+
+```python
+xxx
+```
+
+### See Also
+[xxx](xxx.md)
+
+{% endmethod %}
+
+{% include "./bottom_copyright.md" %}
+
+
+
+

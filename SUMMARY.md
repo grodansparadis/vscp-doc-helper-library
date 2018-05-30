@@ -27,7 +27,7 @@
 * [vscphlp_setResponseTimeout](vscphlp_setresponsetimeout.md)
 * [vscphlp_setAfterCommandSleep](vscphlp_setaftercommandsleep.md)
 
-### Main functions
+### Main methods
 * [vscphlp_isConnected](vscphlp_isconnected.md)
 * [vscphlp_doCommand](vscphlp_docommand.md)
 * [vscphlp_checkReply](vscphlp_checkreply.md)
@@ -39,12 +39,24 @@
 * [vscphlp_clearDaemonEventQueue](vscphlp_cleardaemoneventqueue.md)
 * [vscphlp_sendEvent](vscphlp_sendevent.md)
 * [vscphlp_sendEventEx](vscphlp_sendeventex.md)
-* []()
+* [vscphlp_isDataAvailable](vscphlp_isdataavailable.md)
+* [vscphlp_enterReceiveLoop](vscphlp_enterreceiveloop.md)
+* [vscphlp_quitReceiveLoop](vscphlp_quitreceiveloop.md)
+* [vscphlp_blockingReceiveEvent](vscphlp_blockingreceiveevent.md)
+* [vscphlp_blockingReceiveEventEx](vscphlp_blockingreceiveeventex.md)
+* [vscphlp_setFilter](vscphlp_setfilter.md)
+* [vscphlp_getStatistics](vscphlp_getstatistics.md)
+* [vscphlp_getStatus](vscphlp_getstatus.md)
+* [vscphlp_getVersion](vscphlp_getversion.md)
+* [vscphlp_getDLLVersion](vscphlp_getdllversion.md)
+* [vscphlp_getVendorString](vscphlp_getvendorstring.md)
+* [vscphlp_getDriverInfo](vscphlp_getdriverinfo.md)
+* [vscphlp_doCmdShutDown](vscphlp_docmdshutdown.md)
 
 ### General helpers
 
 ### Variables
 
 ### Tables
-* [Defining Methods](methods.md)
+
 
