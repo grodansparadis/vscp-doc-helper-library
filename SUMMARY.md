@@ -28,7 +28,8 @@
 * [vscphlp_setAfterCommandSleep](vscphlp_setaftercommandsleep.md)
 
 ### Main functions
-* []()
+* [vscphlp_isConnected](vscphlp_isconnected.md)
+* [vscphlp_doCommand](vscphlp_docommand.md)
 
 ### General helpers
 
