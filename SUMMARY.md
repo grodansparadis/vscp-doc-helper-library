@@ -30,6 +30,10 @@
 ### Main functions
 * [vscphlp_isConnected](vscphlp_isconnected.md)
 * [vscphlp_doCommand](vscphlp_docommand.md)
+* [vscphlp_checkReply](vscphlp_checkreply.md)
+* [vscphlp_clearLocalInputQueue](vscphlp_clearlocalinputqueue.md)
+* [vscphlp_open](vscphlp_open.md)
+* [vscphlp_openInterface](vscphlp_openinterface.md)
 
 ### General helpers
 
