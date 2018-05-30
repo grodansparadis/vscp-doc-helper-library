@@ -10,13 +10,15 @@ int vscphlp_isConnected( handle )
 ```
 
 ### Parameters
+
+#### handle
 Handle for the communication channel obtained from a call to [vscphlp_newsession](vscphlp_newsession.md).
 
 ### Return Value
 VSCP_ERROR_SUCCESS if the session is active and VSCP_ERROR_ERROR if it is inactive. VSCP_ERROR_INVALID_HANDLE is returned if an invalid handle is given. 
 
 ### Description
-bbbbbbbbbbbbbbbbbbbbbbbb
+Check if the session is active or not. 
 
 **Example** {% sample lang="c" %}
 

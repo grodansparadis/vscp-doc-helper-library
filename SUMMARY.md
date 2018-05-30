@@ -34,6 +34,12 @@
 * [vscphlp_clearLocalInputQueue](vscphlp_clearlocalinputqueue.md)
 * [vscphlp_open](vscphlp_open.md)
 * [vscphlp_openInterface](vscphlp_openinterface.md)
+* [vscphlp_close](vscphlp_close.md)
+* [vscphlp_noop](vscphlp_noop.md)
+* [vscphlp_clearDaemonEventQueue](vscphlp_cleardaemoneventqueue.md)
+* [vscphlp_sendEvent](vscphlp_sendevent.md)
+* [vscphlp_sendEventEx](vscphlp_sendeventex.md)
+* []()
 
 ### General helpers
 

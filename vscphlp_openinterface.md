@@ -19,7 +19,7 @@ int pyvscphlp_openInterface( handle,
 #### handle
 Handle for the communication channel obtained from a call to [vscphlp_newsession](vscphlp_newsession.md).one
 
-####interface
+#### interface
 Pointer to a string with the name of interface to open. The format of this string is
 
     host;username;password
@@ -32,7 +32,7 @@ where in both cases host is
 
     host-address:port
 
-####flags
+#### flags
 Flags to use for the interface. Currently not used.
 
 
