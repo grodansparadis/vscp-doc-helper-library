@@ -53,7 +53,37 @@
 * [vscphlp_getDriverInfo](vscphlp_getdriverinfo.md)
 * [vscphlp_doCmdShutDown](vscphlp_docmdshutdown.md)
 
+### Event helpers and conversions
+* [vscphlp_copyVSCPEvent](vscphlp_copyvscpevent.md)
+* [vscphlp_writeVscpDataToString](vscphlp_writevscpdatatostring.md)
+* [vscphlp_writeVscpDataWithSizeToString](vscphlp_writevscpdatawithsizetostring.md)
+* [vscphlp_setVscpDataFromString](vscphlp_setvscpdatafromstring)
+* [vscphlp_writeVscpEventToString](vscphlp_writevscpeventtostring.md)
+* [vscphlp_writeVscpEventExToString](vscphlp_writevscpeventextostring.md)
+* [vscphlp_setVscpEventFromString](vscphlp_setvscpeventfromstring.md)
+* [vscphlp_setVscpEventExFromString](vscphlp_setvscpeventexfromstring.md)
+* [vscphlp_getVscpPriority](vscphlp_getvscppriority.md)
+* [vscphlp_getVscpPriorityEx](vscphlp_getvscppriorityex.md)
+* [vscphlp_setVscpPriority](vscphlp_setvscppriority.md)
+* [vscphlp_setVscpPriorityEx](vscphlp_setvscppriorityex.md)
+
+### CANAL helpers and conversions
+* [vscphlp_getVSCPheadFromCANALid](vscphlp_getvscpheadfromcanalid.md)
+* [vscphlp_getVSCPclassFromCANALid](vscphlp_getvscpclassfromcanalid.md)
+* [vscphlp_getVSCPtypeFromCANALid](vscphlp_getvscptypefromcanalid.md)
+* [vscphlp_getVSCPnicknameFromCANALid](vscphlp_getvscpnicknamefromcanalid.md)
+* [vscphlp_getCANALidFromVSCPdata](vscphlp_getcanalidfromvscpdata.md)
+* [vscphlp_getCANALidFromVSCPevent](vscphlp_getcanalidfromvscpevent.md)
+* [vscphlp_getCANALidFromVSCPeventEx](vscphlp_getcanalidfromvscpeventex.md)
+* [vscphlp_calc_crc_Event](vscphlp_calc_crc_event.md)
+* [vscphlp_calc_crc_EventEx](vscphlp_calc_crc_eventex.md)
+
 ### General helpers
+This part of the library describes the many helpers that are available to handle events, GUIDs, etc, etc. 
+* [vscphlp_readStringValue](vscphlp_readstringvalue.md)
+* [vscphlp_replaceBackslash](vscphlp_replacebackslash.md)
+* [vscphlp_getTimeString](vscphlp_gettimestring.md)
+* [vscphlp_getISOTimeString](vscphlp_getisotimestring.md)
 
 ### Variables
 
