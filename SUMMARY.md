@@ -53,6 +53,18 @@
 * [vscphlp_getDriverInfo](vscphlp_getdriverinfo.md)
 * [vscphlp_doCmdShutDown](vscphlp_docmdshutdown.md)
 
+### GUID handling
+* 
+
+### Filter handling
+* [vscphlp_clearVSCPFilter](vscphlp_clearvscpfilter.md)
+* [vscphlp_copyVSCPFilter](vscphlp_copyvscpFilter.md)
+* [vscphlp_readFilterFromString](vscphlp_readfilterfromstring.md)
+* [vscphlp_writeFilterToString](vscphlp_writefiltertostring.md)
+* [vscphlp_readMaskFromString](vscphlp_readmaskfromstring.md)
+* [vscphlp_writeMaskToString](vscphlp_writemasktostring.md)
+* [vscphlp_doLevel2Filter](vscphlp_doLevel2filter.md)
+
 ### Event helpers and conversions
 * [vscphlp_copyVSCPEvent](vscphlp_copyvscpevent.md)
 * [vscphlp_writeVscpDataToString](vscphlp_writevscpdatatostring.md)
@@ -66,6 +78,19 @@
 * [vscphlp_getVscpPriorityEx](vscphlp_getvscppriorityex.md)
 * [vscphlp_setVscpPriority](vscphlp_setvscppriority.md)
 * [vscphlp_setVscpPriorityEx](vscphlp_setvscppriorityex.md)
+* [vscphlp_convertVSCPtoEx](vscphlp_convertvscptoex.md)
+* [vscphlp_convertVSCPfromEx](vscphlp_convertvscpfromex.md)
+* [vscphlp_newVSCPevent](vscphlp_newvscpevent.md)
+* [vscphlp_deleteVSCPevent](vscphlp_deletevscpevent.md)
+* [vscphlp_deleteVSCPevent_v2](vscphlp_deletescpevent_v2.md)
+* [vscphlp_convertCanalToEvent](vscphlp_convertcanaltoevent.md)
+* [vscphlp_convertCanalToEventEx](vscphlp_convertcanaltoeventex.md)
+* [vscphlp_convertEventToCanal](vscphlp_converteventtocanal.md)
+* [vscphlp_convertEventExToCanal](vscphlp_converteventextocanal.md)
+* [vscphlp_setEventDateTimeBlockToNow](vscphlp_seteventdatetimeblocktonow.md)
+* [vscphlp_setEventExDateTimeBlockToNow](vscphlp_seteventexdatetimeblocktonow.md)
+* [vscphlp_getDateStringFromEvent](vscphlp_getdatestringfromevent.md)
+*  [vscphlp_getDateStringFromEventEx](vscphlp_getdatestringfromeventex.md)
 
 ### CANAL helpers and conversions
 * [vscphlp_getVSCPheadFromCANALid](vscphlp_getvscpheadfromcanalid.md)
@@ -84,6 +109,13 @@ This part of the library describes the many helpers that are available to handle
 * [vscphlp_replaceBackslash](vscphlp_replacebackslash.md)
 * [vscphlp_getTimeString](vscphlp_gettimestring.md)
 * [vscphlp_getISOTimeString](vscphlp_getisotimestring.md)
+* [vscphlp_convertCanalToEvent](vscphlp_convertcanaltoevent.md)
+* [vscphlp_convertCanalToEventEx](vscphlp_convertcanaltoeventex.md)
+* [vscphlp_convertEventToCanal](vscphlp_converteventtocanal.md)
+* [vscphlp_convertEventExToCanal](vscphlp_converteventextocanal.md)
+* [vscphlp_makeTimeStamp](vscphlp_maketimestamp.md)
+
+
 
 ### Variables
 
