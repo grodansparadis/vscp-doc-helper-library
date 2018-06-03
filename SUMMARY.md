@@ -54,7 +54,19 @@
 * [vscphlp_doCmdShutDown](vscphlp_docmdshutdown.md)
 
 ### GUID handling
-* 
+* [vscphlp_getGuidFromString](vscphlp_getguidfromstring.md)
+* [vscphlp_getGuidFromStringEx](vscphlp_getguidfromstringex.md)
+* [vscphlp_getGuidFromStringToArray](vscphlp_getguidfromstringtoarray.md)
+* [vscphlp_writeGuidToString](vscphlp_writeguidtostring.md)
+* [vscphlp_writeGuidToStringEx](vscphlp_writeguidtostringex.md)
+* [vscphlp_writeGuidToString4Rows](vscphlp_writeguidtostring4rows.md)
+* [vscphlp_writeGuidToString4RowsEx](vscphlp_writeguidtostring4rowsex.md)
+* [vscphlp_writeGuidArrayToString](vscphlp_writeguidarraytostring.md)
+* [vscphlp_isGUIDEmpty](vscphlp_isguidempty.md)
+* [vscphlp_isSameGUID](vscphlp_issameguid.md)
+* [vscphlp_reverseGUID](vscphlp_reverseguid.md)
+* [vscphlp_calcCRC4GUIDArray](vscphlp_calccrc4guidarray.md)
+* [vscphlp_calcCRC4GUIDString](vscphlp_calccrc4guidstring.md)
 
 ### Filter handling
 * [vscphlp_clearVSCPFilter](vscphlp_clearvscpfilter.md)
@@ -91,6 +103,12 @@
 * [vscphlp_setEventExDateTimeBlockToNow](vscphlp_seteventexdatetimeblocktonow.md)
 * [vscphlp_getDateStringFromEvent](vscphlp_getdatestringfromevent.md)
 *  [vscphlp_getDateStringFromEventEx](vscphlp_getdatestringfromeventex.md)
+*  [vscphlp_convertEventToJSON](vscphlp_converteventtojson.md)
+*  [vscphlp_convertEventExToJSON](vscphlp_converteventextojson.md)
+*  [vscphlp_convertEventToXML](vscphlp_converteventtoxml.md)
+*  [vscphlp_convertEventExToXML](vscphlp_converteventextoxml.md)
+*  [vscphlp_convertEventToHTML](vscphlp_converteventtohtml.md)
+*  [vscphlp_convertEventExToHTML](vscphlp_converteventextohtml.md)
 
 ### CANAL helpers and conversions
 * [vscphlp_getVSCPheadFromCANALid](vscphlp_getvscpheadfromcanalid.md)
@@ -102,6 +120,30 @@
 * [vscphlp_getCANALidFromVSCPeventEx](vscphlp_getcanalidfromvscpeventex.md)
 * [vscphlp_calc_crc_Event](vscphlp_calc_crc_event.md)
 * [vscphlp_calc_crc_EventEx](vscphlp_calc_crc_eventex.md)
+
+### Measurements
+* [vscphlp_getMeasurementDataCoding](vscphlp_getmeasurementdatacoding.md)
+* [vscphlp_getDataCodingBitArray](vscphlp_getdatacodingbitarray.md)
+* [vscphlp_getDataCodingInteger](vscphlp_getdatacodinginteger.md)
+* [vscphlp_getDataCodingNormalizedInteger](vscphlp_getdatacodingnormalizedinteger.md)
+* [vscphlp_getDataCodingString](vscphlp_getdatacodingstring.md)
+* [vscphlp_getVSCPMeasurementAsString](vscphlp_getvscpmeasurementasstring.md)
+* [vscphlp_getVSCPMeasurementAsDouble](vscphlp_getvscpmeasurementasdouble.md)
+* [vscphlp_getVSCPMeasurementFloat64AsString](vscphlp_getvscpmeasurementfloat64asstring.md)
+* [vscphlp_convertFloatToNormalizedEventData](vscphlp_convertfloattonormalizedeventdata.md)
+* [vscphlp_convertFloatToFloatEventData](vscphlp_convertfloattofloateventdata.md)
+* [vscphlp_convertIntegerToNormalizedEventData](vscphlp_convertintegertonormalizedeventdata.md)
+* [vscphlp_makeFloatMeasurementEvent](vscphlp_makefloatmeasurementevent.md)
+* [vscphlp_getMeasurementAsFloat](vscphlp_getmeasurementasfloat.md)
+* [vscphlp_getMeasurementUnit](vscphlp_getmeasurementunit.md)
+* [vscphlp_getMeasurementSensorIndex](vscphlp_getmeasurementsensorindex.md)
+* [vscphlp_getMeasurementZone](vscphlp_getmeasurementzone.md)
+* [vscphlp_getMeasurementSubZone](vscphlp_getmeasurementSubzone.md)
+* [vscphlp_isMeasurement](vscphlp_ismeasurement.md)
+* [vscphlp_convertLevel1MeasuremenToLevel2Double](vscphlp_convertlevel1measurementolevel2double.md)
+* [vscphlp_convertLevel1MeasuremenToLevel2String](vscphlp_convertlevel1measurementolevel2string.md)
+* [vscphlp_makeLevel2FloatMeasurementEvent](vscphlp_makelevel2floatmeasurementevent.md)
+* [vscphlp_makeLevel2StringMeasurementEvent](vscphlp_makelevel2stringmeasurementevent.md)
 
 ### General helpers
 This part of the library describes the many helpers that are available to handle events, GUIDs, etc, etc. 
