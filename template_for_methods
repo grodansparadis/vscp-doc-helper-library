@@ -42,5 +42,16 @@ xxx
 {% include "./bottom_copyright.md" %}
 
 
+----
+
+
+pEvent->year = 2017;
+pEvent->month = 1;  // January
+pEvent->day = 2;
+pEvent->hour = 13;
+pEvent->minute = 10;
+pEvent->second = 43;
+
+
 
 

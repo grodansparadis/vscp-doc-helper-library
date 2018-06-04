@@ -12,7 +12,7 @@ VSCP event.
 
 
 ### Return Value
-rrrr
+None.
 
 ### Description
 Delete VSCP event. 

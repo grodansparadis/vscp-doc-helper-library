@@ -158,9 +158,46 @@ This part of the library describes the many helpers that are available to handle
 * [vscphlp_makeTimeStamp](vscphlp_maketimestamp.md)
 
 
-
 ### Variables
+* [vscphlp_createRemoteVariable](vscphlp_createremotevariable.md)
+* [vscphlp_deleteRemoteVariable](vscphlp_deleteremotevariable.md)
+* [vscphlp_saveRemoteVariablesToDisk](vscphlp_saveremotevariablestodisk.md)
+* [vscphlp_getRemoteVariableString](vscphlp_getremotevariablestring.md)
+* [vscphlp_setRemoteVariableString](vscphlp_setremotevariablestring.md)
+* [vscphlp_getRemoteVariableBool](vscphlp_getremotevariablebool.md)
+* [vscphlp_getRemoteVariableInt](vscphlp_getremotevariableint.md)
+* [vscphlp_setRemoteVariableInt](vscphlp_setremotevariableint.md)
+* [vscphlp_getRemoteVariableLong](vscphlp_getremotevariablelong.md)
+* [vscphlp_setRemoteVariableLong](vscphlp_setremotevariablelong.md)
+* [vscphlp_getRemoteVariableDouble](vscphlp_getremotevariabledouble.md)
+* [vscphlp_setRemoteVariableDouble](vscphlp_setremotevariabledouble.md)
+* [vscphlp_getRemoteVariableMeasurement](vscphlp_getremotevariablemeasurement.md)
+* [vscphlp_setRemoteVariableMeasurement](vscphlp_setremotevariablemeasurement.md)
+* [vscphlp_getRemoteVariableEvent](vscphlp_getremotevariableevent.md)
+* [vscphlp_setRemoteVariableEvent](vscphlp_setremotevariableevent.md)
 
 ### Tables
+* [vscphlp_tableCreate](vscphlp_tablecreate.md)
+* [vscphlp_tableDelete](vscphlp_tabledelete.md)
+* [vscphlp_tableList](vscphlp_tablelist.md)
+* [vscphlp_tableListInfo](vscphlp_tablelistinfo.md)
+* [vscphlp_tableGet](vscphlp_tableget.md)
+* [vscphlp_tableGetRaw](vscphlp_tablegetraw.md)
+* [vscphlp_tableLog](vscphlp_tablelog.md)
+* [vscphlp_tableLogSQL](vscphlp_tablelogsql.md)
+* [vscphlp_tableGetNumRecords](vscphlp_tablegetnumrecords.md)
+* [vscphlp_tableGetFirstDate](vscphlp_tablegetfirstdate.md)
+* [vscphlp_tableGetLastDate](vscphlp_tablegetlastdate.md)
+* [vscphlp_tableGetSum](vscphlp_tablegetsum.md)
+* [vscphlp_tableGetMin](vscphlp_tablegetmin.md)
+* [vscphlp_tableGetMax](vscphlp_tablegetmax.md)
+* [vscphlp_tableGetAverage](vscphlp_tablegetaverage.md)
+* [vscphlp_tableGetMedian](vscphlp_tablegetmedian.md)
+* [vscphlp_tableGetStdDev](vscphlp_tablegetstddev.md)
+* [vscphlp_tableGetVariance](vscphlp_tablegetvariance.md)
+* [vscphlp_tableGetMode](vscphlp_tablegetmode.md)
+* [vscphlp_tableGetLowerQ](vscphlp_tablegetlowerq.md)
+* [vscphlp_tableGetUpperQ](vscphlp_tablegetupperq.md)
+* [vscphlp_tableClear](vscphlp_tableclear.md)
 
 
