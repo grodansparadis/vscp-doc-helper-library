@@ -15,7 +15,7 @@ xxxx
 Handle for the communication channel obtained from a call to [vscphlp_newsession](vscphlp_newsession.md).
 
 ### Return Value
-rrrr
+CANAL_ERROR_SUCCESS on success or an error code on failure. 
 
 ### Description
 bbbb
