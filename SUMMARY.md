@@ -391,3 +391,9 @@ This part of the library describes the many helpers that are available to handle
 * [tableGetUpperQ](class_tableGetUpperQ.md)
 * [tableClear](class_tableClear.md)
 
+### Register handling
+* [readLevel2Register](class_readLevel2Register.md)
+* [readLevel2Registers](class_readLevel2Registers.md)
+* [writeLevel2Register](class_writeLevel2Register.md)
+* [getMDFUrlFromLevel2Device](class_getMDFUrlFromLevel2Device.md)
+* [fetchIterfaceGUID](class_fetchIterfaceGUID.md)
