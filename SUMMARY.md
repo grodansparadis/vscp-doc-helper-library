@@ -11,16 +11,7 @@
 * [Using with c](c_using.md)
 * [Using with Python](python_using.md)
 
-## Using C++ classes
-* [Introduction](cpp_intro.md)
-* [First project](cpp_firstprj.md)
-* [Available methods](cpp_methods.md)
-
-## The CANAL library
-* [libcanal](canal_libcanal.md)
-* [Using the library](canal_using.md)
-
-## Methods
+## Callable methods in library
 
 ### Initialization and configuration
 * [vscphlp_newSession](vscphlp_newsession.md)
@@ -158,7 +149,6 @@ This part of the library describes the many helpers that are available to handle
 * [vscphlp_convertEventExToCanal](vscphlp_converteventextocanal.md)
 * [vscphlp_makeTimeStamp](vscphlp_maketimestamp.md)
 
-
 ### Remote Variables
 * [vscphlp_createRemoteVariable](vscphlp_createremotevariable.md)
 * [vscphlp_deleteRemoteVariable](vscphlp_deleteremotevariable.md)
@@ -243,11 +233,12 @@ This part of the library describes the many helpers that are available to handle
 * [vscphlp_tableGetUpperQ](vscphlp_tablegetupperq.md)
 * [vscphlp_tableClear](vscphlp_tableclear.md)
 
-
-## Using the C++ classes directly
+## Using C++ classes directly
 * [Introduction to direct use of VSCP classes](classes_intro.md)
 * [First project](classes_first_project.md)
 * [Methods in the VscpRemoteTcpIf class](classes_methods.md)
+
+## Available methods
 
 ### General Methods
 * [setResponseTimeout](class_setResponseTimeout.md)
@@ -397,3 +388,13 @@ This part of the library describes the many helpers that are available to handle
 * [writeLevel2Register](class_writeLevel2Register.md)
 * [getMDFUrlFromLevel2Device](class_getMDFUrlFromLevel2Device.md)
 * [fetchIterfaceGUID](class_fetchIterfaceGUID.md)
+
+## The CANAL library
+* [libcanal](canal_libcanal.md)
+* [Using the library](canal_using.md)
+
+
+
+
+
+

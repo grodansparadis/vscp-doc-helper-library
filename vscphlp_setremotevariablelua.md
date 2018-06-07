@@ -3,9 +3,9 @@
 ## vscphlp_setRemoteVariableLUA
 
 ```c
-int vscphlp_setRemoteVariableLUA( long handle, 
-                                const char *pName, 
-                                char *pValue ) 
+int vscphlp_setRemoteVariableLUA( long handle,
+                                const char *pName,
+                                char *pValue )
 ```
 
 ### Parameters
