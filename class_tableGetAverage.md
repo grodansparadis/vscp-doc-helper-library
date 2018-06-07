@@ -29,4 +29,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get the average of all values for an interval in a named table. 
 
+{% endmethod %}
+
 {% include "./bottom_copyright.md" %}
