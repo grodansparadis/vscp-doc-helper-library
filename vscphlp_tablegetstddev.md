@@ -1,4 +1,5 @@
 
+{% method %}
 ## tableGetStdDev
 
 ```c
