@@ -62,7 +62,7 @@ The code for the program looks like this
 ///////////////////////////////////////////////////////////////////////////////
 // noop.cpp 
 //
-// http://www.vscp.org   Grodans Paradis AB   info@grodansparadis.com
+// https://www.vscp.org   Grodans Paradis AB   info@grodansparadis.com
 //
  
 #include <stdio.h>

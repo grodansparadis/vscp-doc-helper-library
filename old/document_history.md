@@ -81,6 +81,6 @@ vscphlp_setRemoteVariableUser, vscphlp_getRemoteVariableFilter, vscphlp_setRemot
 
 *  2015-09-19 AKHE - Added vscphlp_setAfterCommandSleep. Bumped version to 4
 
-*  2015-09-09 AKHE - The string parameter for [vscphlp_readFilterFromString] and [[http://www.vscp.org/docs/vscphelper/doku.php?id=helper_lib_api_helpers#vscphlp_readmaskfromstring](http://www.vscp.org/docs/vscphelper/doku.php?id=helper_lib_api_helpers#vscphlp_readfilterfromstring) can now be empty or just have some of the arguments defined. 
+*  2015-09-09 AKHE - The string parameter for [vscphlp_readFilterFromString] and [[https://www.vscp.org/docs/vscphelper/doku.php?id=helper_lib_api_helpers#vscphlp_readmaskfromstring](https://www.vscp.org/docs/vscphelper/doku.php?id=helper_lib_api_helpers#vscphlp_readfilterfromstring) can now be empty or just have some of the arguments defined. 
 
 

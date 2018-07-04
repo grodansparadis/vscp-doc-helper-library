@@ -2049,7 +2049,7 @@ printf("CRC = %02X\n", crc8 )
 unsigned char vscphlp_getMeasurementDataCoding( const vscpEvent *pEvent )
 `</code>`
 
-Get the [measurement data coding byte](http://www.vscp.org/docs/vscpspec/doku.php?id=data_coding) from an event. The measurement data coding byte specifies how the data in the event should be interpreted.
+Get the [measurement data coding byte](https://www.vscp.org/docs/vscpspec/doku.php?id=data_coding) from an event. The measurement data coding byte specifies how the data in the event should be interpreted.
 
 ##### pEvent
 

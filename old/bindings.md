@@ -8,7 +8,7 @@ The libvscphelper library is available in deb package format for 64-bit Linux an
 
 If you are on a i386 based machine you need to [install this](https///debian.pkgs.org/9/debian-main-i386/libwxbase3.0-0v5_3.0.2+dfsg-4_i386.deb.html) before you install the package.
 
-Files are available [here](http://www.vscp.org/downloads/vscphelper)
+Files are available [here](https://www.vscp.org/downloads/vscphelper)
 ## Python
 
 **pyvscp** is the official Python support for VSCP & friends. Install with 
