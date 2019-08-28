@@ -4,15 +4,21 @@ See exempamples [here](https://github.com/grodansparadis/pyvscp/tree/master/vscp
 
 Import with
 
->from vscp import vscphelper
+>import vscp
 
 and then prefix all methods with **vscphelper.**
 
 Example
 ```python
-h1 = vscphelper.pyvscphlp_newSession()
+# Constant
+vscpclass = vscp.CLASS1_SECURITY
+vscptype = vscp.VSCP_TYPE_PROTOCOL_GENERAL
+errcode = VSCP_ERROR_SUCCESS
+
+# Helper
+h1 = vscp.pyvscphlp_newSession()
 if (0 == h1 ):
-    vscphelper.pyvscphlp_closeSession(h1)
+    vscp.pyvscphlp_closeSession(h1)
     raise ValueError('Unable to open vscphelp library session')
 ```
 
