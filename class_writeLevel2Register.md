@@ -1,8 +1,6 @@
 
-{% method %}
-## writeLevel2Register
 
-```c
+```clike
 int writeLevel2Register(uint32_t reg,
                         uint16_t page,
                         uint8_t *pval,
@@ -37,6 +35,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Write a level 2 register.
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

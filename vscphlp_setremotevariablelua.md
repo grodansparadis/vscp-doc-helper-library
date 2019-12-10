@@ -1,8 +1,7 @@
 
-{% method %}
-## vscphlp_setRemoteVariableLUA
 
-```c
+
+```clike
 int vscphlp_setRemoteVariableLUA( long handle,
                                 const char *pName,
                                 char *pValue )
@@ -25,13 +24,13 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Set variable value for a LUA script variable. The value is always expected to be BASE64 encoded.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 TODO
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 TODO
@@ -40,6 +39,6 @@ TODO
 ### See Also
 [vscphlp_getRemoteVariableLUA](vscphlp_getremotevariablelua.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

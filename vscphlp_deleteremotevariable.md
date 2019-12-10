@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_deleteRemoteVariable
 
-```c
+```clike
 int vscphlp_deleteRemoteVariable( long handle, 
                                     const char *pName )
 ```
@@ -22,9 +20,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Delete a remote variable. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Delete a variable
 if ( VSCP_ERROR_SUCCESS == 
       ( rv = vscphlp_deleteRemoteVariable( handle1, 
@@ -36,6 +34,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

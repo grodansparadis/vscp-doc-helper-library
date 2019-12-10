@@ -1,13 +1,11 @@
 
-{% method %}
-## tableGetStdDev
 
-```c
+```clike
 int vscphlp_tableGetStdDev( const unsigned char *pName, 
                             const char *pFrom, 
                             const char *pTo,
                             double *pStdDev )
-                            {% method %}
+                            
 ```
 
 ### Parameters
@@ -30,6 +28,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get the standard deviation of all values for an interval in a named table. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

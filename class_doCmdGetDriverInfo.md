@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdGetDriverInfo
 
-```c
+```clike
 const char *doCmdGetDriverInfo(void)
 ```
 
@@ -15,6 +13,6 @@ A pointer to a null terminated string containing driver information on XML forma
 ### Description
 Get the driver information string from the remote VSCP server. This is intended for CANAL. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

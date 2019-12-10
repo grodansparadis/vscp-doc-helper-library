@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableFromString
 
-```c
+
+
+```clike
 int setRemoteVariableFromString( const wxString& name, 
                         const wxString& strValue,
                         const bool bPersistent = false,
@@ -29,6 +29,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set a remote variable value from its string form. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

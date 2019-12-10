@@ -1,8 +1,6 @@
-{% method %}
-## vscphlp makeTimeStamp
 
 
-```c
+```clike
 unsigned long vscphlp_makeTimeStamp( void )
 ```
 
@@ -17,12 +15,12 @@ Timestamp in microseconds.
 ### Description
 Get new VSCP timestamp. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 printf( "vscphlp_makeTimeStamp  %04X\n", vscphlp_makeTimeStamp() );
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

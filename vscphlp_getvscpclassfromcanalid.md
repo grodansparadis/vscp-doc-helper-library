@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getVSCPclassFromCANALid
 
-```c
+```clike
 unsigned short 
 vscphlp_getVSCPclassFromCANALid( unsigned long id )
 ```
@@ -18,9 +16,9 @@ VSCP class.
 ### Description
 Get the VSCP class from a CANAL message id. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 unsigned long canalid = 0x0c0a0601;
 unsigned short can_vscpclass = vscphlp_getVSCPclassFromCANALid( canalid );
 if ( 10 == can_vscpclass ) {
@@ -31,6 +29,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

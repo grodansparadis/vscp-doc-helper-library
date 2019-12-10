@@ -1,8 +1,6 @@
-{% method %}
-## vscphlp_getGuidFromStringEx
 
 
-```c
+```clike
 int vscphlp_getGuidFromStringEx( vscpEvent *pEvent, 
                             const char * pGUID )
 ```
@@ -22,9 +20,9 @@ VSCP_ERROR_SUCCESS on success.
 ### Description
 Write GUID into VSCP event ex from a string. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 char strguid[64], strguid2[64];
  
 if ( VSCP_ERROR_SUCCESS == vscphlp_getGuidFromStringEx( &ex3, strguid ) ) {        
@@ -39,6 +37,6 @@ else {
 ### See Also
 [vscphlp_getGuidFromString](vscphlp_getguidfromstring.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

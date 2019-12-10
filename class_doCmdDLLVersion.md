@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdDLLVersion
 
-```c
+```clike
 unsigned long doCmdDLLVersion(void)
 ```
 
@@ -17,6 +15,6 @@ DL/DLL version. A negative error code is returned on failure.
 ### Description
 Get DL/DLL version. This is intended for CANAL. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

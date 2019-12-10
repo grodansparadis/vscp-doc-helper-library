@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getRemoteVariableDouble
 
-```c
+```clike
 int vscphlp_getRemoteVariableDouble( long handle, const 
                                     char *pName, 
                                     double *value ) 
@@ -25,9 +23,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get variable value from double variable.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Read a value from a float variable
 double floatValue;
 if ( VSCP_ERROR_SUCCESS == 
@@ -43,6 +41,6 @@ else {
 ### See Also
 [vscphlp_setRemoteVariableDouble](vscphlp_setremotevariabledouble.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

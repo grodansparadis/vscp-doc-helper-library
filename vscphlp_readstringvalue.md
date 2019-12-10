@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_readStringValue
 
-```c
+```clike
 long vscphlp_readStringValue( const char * pStrValue )
 ```
 
@@ -17,12 +15,12 @@ The converted number as a signed long..
 ### Description
 Convert a string to an integer value. The string can be expressed as a decimal (10, 00001 ) or a hexadecimal value(0xff).
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 long readValue = vscphlp_readStringValue("0x22");
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

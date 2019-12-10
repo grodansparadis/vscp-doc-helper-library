@@ -2,7 +2,7 @@
 
 Methods allow you to smoothly display code examples in different languages.
 
-{% method %}
+
 ## My first method
 
 My first method exposes how to print a message in JavaScript and Go.
@@ -21,10 +21,10 @@ Here is how to print a message to `stdout` using Go.
 fmt.Println("My first method")
 ```
 
-{% common %}
+#### Common example
 Whatever language you are using, the result will be the same.
 
 ```bash
 $ My first method
 ```
-{% endmethod %}
+

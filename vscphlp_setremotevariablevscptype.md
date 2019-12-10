@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_setRemoteVariableVSCPtype
 
-```c
+```clike
 int vscphlp_setRemoteVariableVSCPtype( long handle, 
                             const char *pName, 
                             unsigned short vscp_type ) 
@@ -25,9 +23,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Set variable value from type variable.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Write a value for VSCP type type
 if ( VSCP_ERROR_SUCCESS == 
       ( rv = vscphlp_setRemoteVariableVSCPType( handle1, "test_vscp_type_variable", 22 ) ) ) {
@@ -41,6 +39,6 @@ else {
 ### See Also
 [vscphlp_getRemoteVariableVSCPtype](vscphlp_getremotevariablevscptype.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

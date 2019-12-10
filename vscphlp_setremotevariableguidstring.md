@@ -1,8 +1,7 @@
 
-{% method %}
-## vscphlp_setRemoteVariableGUIDString
 
-```c
+
+```clike
 int vscphlp_getRemoteVariableGUID( long handle, 
                             const char *pName, 
                             const char * pGUID ) 
@@ -25,9 +24,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Set the value for GUID variable. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Write a value to an GUID variable - string type
 char strGUID[64];
 strcpy( strGUID, "FF:FF:FF:FF:FF:FF:FF:00:00:00:00:7F:00:01:01:FD" );
@@ -44,6 +43,6 @@ else {
 ### See Also
 [vscphlp_getRemoteVariableGUIDString](vscphlp_getremotevariableguidstring.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

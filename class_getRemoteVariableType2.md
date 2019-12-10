@@ -1,8 +1,8 @@
 
-{% method %}
-## getRemoteVariableType
 
-```c
+
+
+```clike
 int getRemoteVariableType( const wxString& name, 
                             uint8_t *pType )
 ```
@@ -21,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get type on numeric form for a remote variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

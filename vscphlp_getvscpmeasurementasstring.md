@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getVSCPMeasurementAsString
 
-```c
+```clike
 int vscphlp_getVSCPMeasurementAsString( const vscpEvent *pEvent, 
                                         char *pResult, 
                                         size_t len )
@@ -25,9 +23,9 @@ VSCP_ERROR_SUCCESS is return on success.
 ### Description
 This method returns a string representing the measurement data. It recognize all data coding forms and give sensible output back. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscpEvent *pEventMeasurement = new vscpEvent;
 pEventMeasurement->head = 0;
 pEventMeasurement->vscp_class = 10;
@@ -69,6 +67,6 @@ else {
 vscphlp_deleteVSCPevent( pEventMeasurement );
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

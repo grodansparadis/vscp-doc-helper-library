@@ -1,8 +1,8 @@
 
-{% method %}
-## tableGetMin
 
-```c
+
+
+```clike
 int tableGetMin( const wxString& tblName, 
                     const wxDateTime& from, 
                     const wxDateTime& to,
@@ -29,6 +29,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get the minimum of all values for an interval in a named table. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

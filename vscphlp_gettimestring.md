@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getTimeString
 
-```c
+```clike
 int vscphlp_getTimeString( char *buf, 
                             size_t buf_len, 
                             time_t *t )
@@ -28,10 +26,10 @@ Get GMT time http://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.3.
 
 Example result: Sun, “06 Nov 1994 08:49:37 GMT” 
 
-**Example** {% sample lang="c" %}
+#### C example
 mmmm
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

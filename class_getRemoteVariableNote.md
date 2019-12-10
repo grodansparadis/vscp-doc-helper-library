@@ -1,8 +1,6 @@
 
-{% method %}
-## getRemoteVariableNote
 
-```c
+```clike
 int getRemoteVariableNote( const wxString& name, 
                             wxString& strNote )
 ```
@@ -21,6 +19,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get note for remote variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

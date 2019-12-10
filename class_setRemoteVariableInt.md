@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableInt
 
-```c
+
+
+```clike
 int setRemoteVariableInt( const wxString& name, 
                             int value)
 ```
@@ -21,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set variable value for integer remote variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

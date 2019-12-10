@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_convertIntegerToNormalizedEventData
 
-```c
+```clike
 int vscphlp_convertIntegerToNormalizedEventData( unsigned char *pdata,
                                 unsigned short *psize,
                                 unsigned long long val64,
@@ -34,12 +32,12 @@ VSCP_ERROR_SUCCESS is returned on success.
 ### Description
 Write an integer value as measurement event data in normalized integer form.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 Example will be added. TODO
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

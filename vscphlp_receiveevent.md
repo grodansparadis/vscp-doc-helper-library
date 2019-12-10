@@ -1,9 +1,6 @@
 
 
-{% method %}
-## vscphlp_receiveEvent
-
-```c
+```clike
 int vscphlp_receiveEvent( long handle, 
                           vscpEvent *pEvent )
 ```
@@ -20,7 +17,7 @@ Handle for the communication channel obtained from a call to [vscphlp_newsession
 #### pEvent
 Pointer to vscpEvent structure that will receive the event if the call is successful. The structure vscpEvent is define in [vscp.h](https://github.com/grodansparadis/vscp_software/blob/master/src/vscp/common/vscp.h) and is defined as
 
-```c
+```clike
 typedef struct  {	
   uint16_t crc;           // crc checksum - currently only used for UDP and RF
   uint8_t  *pdata;        // Pointer to data. Max 487 (512- 25) bytes
@@ -60,9 +57,9 @@ Receive one VSCP event from the remote VSCP server if there is one available in 
 
 For Python use of [pyvscphlp_receiveEventEx](pyvscphlp_receiveeventex.md) may be simpler as there id no dynamically allocated data to take care off. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Read event
 vscpEvent *pEvent = new vscpEvent;
 pEvent->pdata = NULL;   // A must for a successful delete
@@ -89,7 +86,7 @@ else {
 vscphlp_deleteVSCPevent( pEvent );  // This helper is the same as the above two commented lines
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 
@@ -98,6 +95,6 @@ vscphlp_deleteVSCPevent( pEvent );  // This helper is the same as the above two 
 ### See Also
 [vscphlp_receiveEventEx](vscphlp_receiveeventex.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

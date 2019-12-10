@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getGuidFromStringToArray
 
-```c
+```clike
 int vscphlp_getGuidFromStringToArray( uint8_t *pGUID, 
                                     const char * pStr )
 ```
@@ -22,9 +20,9 @@ VSCP_ERROR_SUCCESS on success.
 ### Description
 Write GUID from string into array. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS == vscphlp_getGuidFromStringToArray( GUID2, strguid ) ) {
     vscphlp_writeGuidArrayToString( GUID2, strguid2, sizeof( strguid2 )-1 );
     printf( "GUID  after reverse = %s\n", strguid2 );
@@ -34,6 +32,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

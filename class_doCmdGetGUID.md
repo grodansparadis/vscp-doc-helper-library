@@ -1,8 +1,7 @@
 
-{% method %}
-## doCmdGetGUID
 
-```c
+
+```clike
 int doCmdGetGUID(char *pGUID)
 ```
 
@@ -17,6 +16,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get GUID for the remote VSCP server interface. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

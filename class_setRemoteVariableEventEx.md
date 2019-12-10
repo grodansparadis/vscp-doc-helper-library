@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableEventEx
 
-```c
+
+
+```clike
 int setRemoteVariableEventEx( const wxString& name, 
                                 vscpEventEx *pEventEx)
 ```
@@ -21,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set remote variable value for VSCP event ex variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

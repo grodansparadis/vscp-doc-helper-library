@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getRemoteVariableVSCPdata
 
-```c
+```clike
 int vscphlp_getRemoteVariableVSCPdata( long handle, 
                                 const char *pName, 
                                 uint16_t *psizeData, 
@@ -29,9 +27,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get variable value from VSCP data variable.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 unsigned short size;
 memset( dataArray, 0, sizeof( dataArray ) );
  
@@ -53,6 +51,6 @@ else {
 ### See Also
 [vscphlp_setRemoteVariableVSCPdata](vscphlp_setremotevariablevscpdata.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_openInterface
 
-```c
+```clike
 int vscphlp_openInterface( long handle,
                             const char *interface, 
                             unsigned long flags )
@@ -42,9 +40,9 @@ Possible return values are the same as for [vscphlp_Open](vscphlp_open.md)
 ### Description
 Opens a session to the TCP/IP interface of a VSCP server. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
  // Open Channel 1
 rv=vscphlp_open( handle1, "192.168.1.9:9598;admin;secret" ); 
 if ( VSCP_ERROR_SUCCESS == rv ) {
@@ -55,7 +53,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "\n\nConnection in progress..."
@@ -71,6 +69,6 @@ else:
 [vscphlp_open](vscphlp_open.md)  
 [vscphlp_close](vscphlp_close.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

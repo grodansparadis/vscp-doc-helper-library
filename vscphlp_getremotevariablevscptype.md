@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getRemoteVariableVSCPtype
 
-```c
+```clike
 int vscphlp_getRemoteVariableVSCPtype( long handle, 
                             const char *pName, 
                             unsigned short *vscp_type ) 
@@ -25,9 +23,9 @@ rReturn VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the conne
 ### Description
 Get variable value from type variable.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 unsigned short vscptype;
  
 // Read a value from aVSCP type type
@@ -44,6 +42,6 @@ else {
 ### See Also
 [vscphlp_setRemoteVariableVSCPtype](vscphlp_setremotevariablevscptype.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

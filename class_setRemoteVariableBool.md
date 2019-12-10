@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableBool
 
-```c
+
+
+```clike
 int setRemoteVariableBool( const wxString& name, 
                             const bool bValue)
 ```
@@ -21,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set variable value for boolean remote variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

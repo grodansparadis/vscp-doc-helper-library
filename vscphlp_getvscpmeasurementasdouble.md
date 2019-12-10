@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getVSCPMeasurementAsDouble
 
-```c
+```clike
 int vscphlp_getVSCPMeasurementAsDouble( const vscpEvent *pEvent, 
                                         double *pvalue)
 ```
@@ -22,9 +20,9 @@ VSCP_ERROR_SUCCESS is returned on success.
 ### Description
 This method returns a double representing the measurement data. It recognize all data coding forms and give sensible output back. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 pEventMeasurement->pdata[0] = VSCP_DATACODING_INTEGER;
 pEventMeasurement->pdata[1] = 0xFF;
 pEventMeasurement->pdata[2] = 0xFF;
@@ -38,6 +36,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

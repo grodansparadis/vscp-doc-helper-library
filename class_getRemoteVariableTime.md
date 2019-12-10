@@ -1,8 +1,8 @@
 
-{% method %}
-## getRemoteVariableTime
 
-```c
+
+
+```clike
 int getRemoteVariableTime( const wxString& name, 
                             wxDateTime& time )
 ```
@@ -21,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get remote variable value from VSCP time variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

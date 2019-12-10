@@ -1,8 +1,8 @@
 
-{% method %}
-## tableDelete
 
-```c
+
+
+```clike
 int tableDelete( const wxString &tblName, 
                 bool bDeleteFile=false )
 ```
@@ -21,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Delete named table. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

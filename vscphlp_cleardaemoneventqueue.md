@@ -1,8 +1,5 @@
 
-{% method %}
-## vscphlp_clearDaemonEventQueue
-
-```c
+```clike
 int vscphlp_clearDaemonEventQueue( long handle )
 ```
 
@@ -21,11 +18,9 @@ VSCP_ERROR_SUCCESS if the VSCP daemon cleared the queue and VSCP_ERROR_ERROR. if
 ### Description
 Clear the receiving side (to us) event queue on the VSCP daemon. 
 
-**Example** 
+#### C example
 
-{% sample lang="c" %}
-
-```c
+```clike
 // Clear event queue on VSCP daemon on handle1
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_clearDaemonEventQueue( handle1 ) ) ) {
     printf( "Command success: vscphlp_clearDaemonEventQueueon channel 1\n" );
@@ -35,7 +30,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 ```python
 print "Empty VSCP server queue"
 rv = pyvscphlp_clearDaemonEventQueue(h1)
@@ -46,6 +41,6 @@ else:
 ```
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

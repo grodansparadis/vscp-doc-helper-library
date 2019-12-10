@@ -1,8 +1,5 @@
 
-{% method %}
-## vscphlp_checkReply
-
-```c
+```clike
 int vscphlp_checkReply( long handle, int bclear )
 ```
 
@@ -25,9 +22,9 @@ VSCP_ERROR_SUCCESS if the VSCP daemon respond with “+OK” after it has receiv
 ### Description
 Check reply data for “+OK”/“-OK” on server. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS == vscphlp_checkReply( handle1, TRUE ) ) {
     printf("+OK was received from VSCP daemon.\n");   
 }
@@ -35,7 +32,7 @@ if ( VSCP_ERROR_SUCCESS == vscphlp_checkReply( handle1, TRUE ) ) {
 
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "command: vscphlp_checkReply"
@@ -48,6 +45,6 @@ if VSCP_ERROR_SUCCESS != rv :
 ### See Also
 [vscphlp_doCommand](vscphlp_docommand.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

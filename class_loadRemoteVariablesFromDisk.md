@@ -1,8 +1,7 @@
 
-{% method %}
-## loadRemoteVariablesFromDisk
 
-```c
+
+```clike
 int loadRemoteVariablesFromDisk( const wxString& path )
 ```
 
@@ -17,6 +16,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Load remote variables from disk.
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

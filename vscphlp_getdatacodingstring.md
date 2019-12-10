@@ -1,16 +1,10 @@
 
-{% method %}
-## vscphlp_getDataCodingString
 
-```c
-
-
+```clike
 int vscphlp_getDataCodingString(const unsigned char *pData,
                                    unsigned char dataLength, 
                                    char *strResult,
                                    size_t len )
-
-
 ```
 
 ### Parameters
@@ -34,10 +28,10 @@ VSCP_ERROR_SUCCESS is returned on success.
 ### Description
 Get string coded measurement data as a string value. 
 
-**Example** {% sample lang="c" %}
+#### C example
 mmmm
 
-```c
+```clike
 unsigned char stringarry[6];
 stringarry[0] = VSCP_DATACODING_STRING; // Data cding byte. Default unit, sensoridx=0
 stringarry[1] = 0x32;
@@ -57,6 +51,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

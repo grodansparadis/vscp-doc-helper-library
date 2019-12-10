@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_receiveEventEx
 
-```c
+```clike
 int vscphlp_receiveEventEx( long handle, 
                             vscpEventEx *pEventEx )
 ```
@@ -26,9 +24,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Receive a VSCP event. The difference to vscphlp_receiveEvent is that the vscphlp_vscpEventEx structure have the data in the structure and vscpEvent that have a pointer to the data in the structure. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Read event  -  Use vscpEventEx
 vscpEventEx ex2;
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_receiveEventEx( handle2, &ex2 ) ) ) {
@@ -48,7 +46,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "Waiting for incoming data..."
@@ -70,6 +68,6 @@ for i in range(0,cntAvailable.value):
 ### See Also
 [vscphlp_receiveEvent](vscphlp_receiveevent.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

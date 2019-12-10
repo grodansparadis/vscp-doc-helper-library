@@ -1,8 +1,7 @@
 
-{% method %}
-## vscphlp_writeFilterToString
 
-```c
+
+```clike
 bool vscp_writeFilterToString( vscpEventFilter *pFilter, 
                                 char *strFilter);
 ```
@@ -23,9 +22,9 @@ VSCP_ERROR_SUCCESS on success.
 ### Description
 Write a filter on comma separated form to a string (priority,class,type,GUID). 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS != vscphlp_writeFilterToString( &filter, str ) ) {
     printf( "\aError: vscphlp_writeFilterToString\n");   
 }
@@ -34,6 +33,6 @@ if ( VSCP_ERROR_SUCCESS != vscphlp_writeFilterToString( &filter, str ) ) {
 ### See Also
 [vscphlp_readFilterFromString](vscphlp_readfilterfromstring.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

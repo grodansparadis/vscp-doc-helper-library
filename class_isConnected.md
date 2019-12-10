@@ -1,8 +1,7 @@
 
-{% method %}
-## isConnected
 
-```c
+
+```clike
 bool isConnected(void)
 ```
 
@@ -16,6 +15,6 @@ Returns true if we are connected, false otherwise.
 Check if connected to remote VSCP server. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

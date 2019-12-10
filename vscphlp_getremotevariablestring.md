@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getRemoteVariableString
 
-```c
+```clike
 int vscphlp_getRemoteVariableString( const char *pName, 
                                     char *pValue, 
                                     size_t len ) 
@@ -29,9 +27,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get value of string variable. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Read a value from a string variable
 char strBuf[32];
  
@@ -48,6 +46,6 @@ else {
 #### See Also
 [vscphlp_setRemoteVariableString](vscphlp_setremotevariablestring.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

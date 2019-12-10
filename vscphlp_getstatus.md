@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getStatus
 
-```c
+```clike
 const char * vscphlp_getStatus( long handle, 
                                 VSCPStatus *pstatus )
 ```
@@ -28,9 +26,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Fetch the status structure from the VSCP server. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 VSCPStatus status;
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_getStatus( handle2, &status ) ) ) {
     printf( "Command success: vscphlp_getStatus on channel 2\n" );
@@ -40,7 +38,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "Get status"
@@ -54,6 +52,6 @@ print "Channel status = %d" % status.lasterrorcode
 print "Channel status = %d" % status.lasterrorsubcode 
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

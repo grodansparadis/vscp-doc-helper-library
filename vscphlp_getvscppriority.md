@@ -1,8 +1,6 @@
 
-{% method %}
-vscphlp_getVscpPriority
 
-```c
+```clike
 unsigned char vscphlp_getVscpPriority( const vscpEvent *pEvent )
 ```
 
@@ -18,9 +16,9 @@ Priority.
 ### Description
 Extract the event priority from a VSCP event. Priority is defined as a value between 0-7 where 0 is the highest priority. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 pEvent = new vscpEvent;
 pEvent->head = 0;
 pEvent->vscp_class = 10;
@@ -55,6 +53,6 @@ vscphlp_deleteVSCPevent( pEvent );
 ### See Also
 [vscphlp_getVscpPriorityEx](vscphlp_getvscppriorityex.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

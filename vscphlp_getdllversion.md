@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getDLLVersion
 
-```c
+```clike
 const char * vscphlp_getDLLVersion( long handle, 
                             unsigned long *pdllversion )
 ```
@@ -33,9 +31,9 @@ Returned a tuple consisting of return value and dllversion. See above c/c++ vers
 ### Description
 Fetch the dll version from the VSCP server. This is the version of the interface. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Get DLL version
 unsigned long dllversion;
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_getDLLVersion( handle2, &dllversion ) ) ) {
@@ -47,7 +45,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "Get DLL version"
@@ -58,6 +56,6 @@ if VSCP_ERROR_SUCCESS != rv :
 print "DLL version = %d" % dllversion
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

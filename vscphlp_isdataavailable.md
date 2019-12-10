@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_isDataAvailable
 
-```c
+```clike
 int vscphlp_isDataAvailable( long handle, 
                                 unsigned int *pCount )
 ```
@@ -29,9 +27,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Check the number of events (if any) that are available in the remote input queue. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Check queue for events
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_isDataAvailable( handle2, &count ) ) ) {
      printf( "Command success: vscphlp_isDataAvailable on handle2\n" );
@@ -43,7 +41,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "Waiting for incoming data..."
@@ -62,6 +60,6 @@ for i in range(0,cntAvailable.value):
         ex.dump()
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

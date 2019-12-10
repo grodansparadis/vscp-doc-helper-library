@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_clearVSCPFilter
 
-```c
+```clike
 void vscphlp_clearVSCPFilter( vscpEventFilter *pFilter )
 ```
 
@@ -17,13 +15,13 @@ None
 ### Description
 Clear VSCP filter. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscphlp_clearVSCPFilter( pFilter )
 ```
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

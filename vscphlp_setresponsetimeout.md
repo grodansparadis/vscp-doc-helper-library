@@ -1,7 +1,6 @@
-{% method %}
-## vscphlp_setResponseTimeout
 
-```c
+
+```clike
 int vscphlp_setResponseTimeout( long handle, 
                         unsigned long timeout )
 ```
@@ -27,23 +26,10 @@ VSCP_ERROR_SUCCESS is returned on success. VSCP_ERROR_INVALID_HANDLE is returned
 ### Description
 This is the timeout in seconds used when checking for replies after commands has been sent to the server. It can be changed anytime during a communication session. Default value is 3000 milliseconds. 
 
-{% sample lang="c" %}
-
-
-```c
-
-```
-
-{% sample lang="python" %}
-
-
-```python
-
-```
 
 ### See also
 [vscphlp_setAfterCommandSleep](vscphlp_setaftercommandsleep.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

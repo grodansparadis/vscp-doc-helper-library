@@ -1,8 +1,7 @@
 
-{% method %}
-## tableCreate
 
-```c
+
+```clike
 int vscphlp_tableCreate( const unsigned char *pTableData )
 ```
 
@@ -22,6 +21,6 @@ Create table from XML data.
 ### See Also
 [vscphlp_tableDelete](vscphlp_tabledelete.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

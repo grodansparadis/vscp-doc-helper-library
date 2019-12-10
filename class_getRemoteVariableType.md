@@ -1,8 +1,8 @@
 
-{% method %}
-## getRemoteVariableType
 
-```c
+
+
+```clike
 int getRemoteVariableType( const wxString& name, 
                             wxString& strType )
 ```
@@ -22,6 +22,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Get type on string form for a remote variable. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

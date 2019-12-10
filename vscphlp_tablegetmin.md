@@ -1,8 +1,7 @@
 
-{% method %}
-## tableGetMin
 
-```c
+
+```clike
 int vscphlp_tableGetMin( const unsigned char *pName, 
                     const char *pFrom, 
                     const char *pTo,
@@ -32,6 +31,6 @@ Get the minimum of all values for an interval in a named table.
 ### See Also
 [vscphlp_tableGetMax](vscphlp_tablegetmax.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

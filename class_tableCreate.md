@@ -1,7 +1,7 @@
-{% method %}
-## vscphlp_xxx
 
-```c
+
+
+```clike
 int tableCreate( const wxString& defTable )
 ```
 
@@ -16,6 +16,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Create table from XML data. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

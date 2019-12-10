@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_calc_crc_Event
 
-```c
+```clike
 short vscphlp_calc_crc_Event ( vscpEvent *pEvent, 
                                 int bSet )
 ```
@@ -21,10 +19,9 @@ VSCP CRC.
 ### Description
 Calculate VSCP CRC and optionally set it.
 
-**Example** {% sample lang="c" %}
-mmmm
+#### C example
 
-```c
+```clike
 unsigned short crc = vscphlp_calc_crc_Event( pEvent, false );
 printf("CRC = %04X\n", crc );
 ```
@@ -32,6 +29,6 @@ printf("CRC = %04X\n", crc );
 ### See Also
 [vscphlp_calc_crc_Event](vscphlp_calc_crc_event.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## getMDFUrlFromLevel2Device
 
-```c
+```clike
 int getMDFUrlFromLevel2Device( cguid& ifGUID,
                                 cguid& destGUID,
                                 wxString &strurl,
@@ -29,6 +27,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get MDf file from device registers.
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

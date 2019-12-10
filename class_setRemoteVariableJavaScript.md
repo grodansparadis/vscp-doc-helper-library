@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableJavaScript
 
-```c
+
+
+```clike
  int setRemoteVariableJavaScript( const wxString& name, 
                                     wxString& js )
 ```
@@ -21,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set remote variable value from BASE64 encoded JavaScript data. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

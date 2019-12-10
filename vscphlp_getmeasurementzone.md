@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getMeasurementZone
 
-```c
+```clike
 int vscphlp_getMeasurementZone( const vscpEvent *pEvent )
 ```
 
@@ -17,6 +15,6 @@ Zone is returned as 0-255 where 255 means “all zones”. 1 is returned if the 
 ### Description
 Get zone for a measurement event. Some events does not have a zone defined and for them zero is always returned. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

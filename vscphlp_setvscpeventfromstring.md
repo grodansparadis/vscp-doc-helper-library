@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_setVscpEventFromString
 
-```c
+```clike
 int vscphlp_setVscpEventFromString( vscpEvent *pEvent, 
                                     const char *pstr )
 ```
@@ -23,9 +21,9 @@ VSCP_ERROR_SUCCESS is returned on success.
 ### Description
 Set VSCP event from a string.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscpEvent *pEventString1 = new vscpEvent;
 pEventString1->pdata = NULL;
  
@@ -44,6 +42,6 @@ vscphlp_deleteVSCPevent( pEventString1 );
 ### See Also
 [vscphlp_setVscpEventExFromString](vscphlp_setvscpeventexfromstring.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

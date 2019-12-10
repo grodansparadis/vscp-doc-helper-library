@@ -1,8 +1,7 @@
 
-{% method %}
-## tableListInfo
 
-```c
+
+```clike
 int vscphlp_tableListInfo( const unsigned char *pName, 
                     unsigned char *pTableInfo, 
                     int bXML )
@@ -23,9 +22,9 @@ If TRUE (!=0) info will be returned as BASE64 encoded XML data.
 CANAL_ERROR_SUCCESS on success or an error code on failure. 
 
 ### Description
-Get table nformation.
+Get table information.
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

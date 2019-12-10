@@ -1,8 +1,7 @@
 
-{% method %}
-## class_setAfterCommandSleep
 
-```c
+
+```clike
 void setAfterCommandSleep(uint16_t to)
 ```
 
@@ -17,6 +16,6 @@ Nothing
 ### Description
 Set after command sleep time (milliseconds). Default is 0 milliseconds as it is normally not needed but can be on a system that is very slow to respond to commands. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

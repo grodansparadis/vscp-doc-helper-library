@@ -1,8 +1,7 @@
 
-{% method %}
-## setRegisterOperationTiming
 
-```c
+
+```clike
 void setRegisterOperationTiming( uint8_t retries, 
                                 uint32_t resendto, 
                                 uint32_t errorto)
@@ -27,6 +26,6 @@ None
 Set register read/write timings.
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

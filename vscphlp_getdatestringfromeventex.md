@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getDateStringFromEventEx
 
-```c
+```clike
 int vscphlp_getDateStringFromEventEx( char *buf, 
                                 size_t buf_len, 
                                 vscpEventEx *pEventEx )
@@ -27,12 +25,12 @@ VSCP_ERROR_SUCCESS on success.
 ### Description
 Extract an ISO date string from the datetime block of an event.
 
-**Example** {% sample lang="c" %}
+#### C example
 
 
 ### See Also
 [vscphlp_getDateStringFromEvent](vscphlp_getdatestringfromevent.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

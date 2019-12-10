@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_setRemoteVariableVSCPclass
 
-```c
+```clike
 int vscphlp_setRemoteVariableVSCPclass( long handle, 
                                     const char *pName, 
                                     unsigned short 
@@ -26,9 +24,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Set variable value from class variable.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Write a value for VSCP class type
 if ( VSCP_ERROR_SUCCESS == 
         ( rv = vscphlp_setRemoteVariableVSCPClass( handle1, "test_vscp_class_variable", 10 ) ) ) {
@@ -42,6 +40,6 @@ else {
 ### See Also
 [vscphlp_getRemoteVariableVSCPclass](vscphlp_getremotevariablevscpclass.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,5 @@
 
-{% method %}
-## vscphlp_writeVscpDataToString
-
-```c
+```clike
 int vscphlp_writeVscpDataToString( const vscpEvent *pEvent, 
                                        char *pstr, 
                                        size_t len,
@@ -25,9 +22,9 @@ VSCP_ERROR_SUCCESS is returned on success.
 ### Description
 Write VSCP data in readable form to a possibly multi line string. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 char dataBuf[80];
  
 if ( VSCP_ERROR_SUCCESS == 
@@ -42,6 +39,4 @@ else {
 }
 ```
 
-{% endmethod %}
-
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

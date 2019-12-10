@@ -1,8 +1,7 @@
 
-{% method %}
-## tableListInfo
 
-```c
+
+```clike
 int tableListInfo( const wxString &tblName, 
                     wxString &tableInfo, 
                     bool bXML = true )
@@ -25,6 +24,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Delete named table. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

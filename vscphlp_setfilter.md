@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_setFilter
 
-```c
+```clike
 int vscphlp_setFilter( long handle, 
                         const vscpEventFilter *pFilter )
 ```
@@ -19,7 +17,7 @@ Handle for the communication channel obtained from a call to [vscphlp_newsession
 #### pFilter (c/c++)
 Pointer to a VSCP filter structure that should be applied to the sending stream on the server. The VSCP filter structure is defined in [vscp.h](https://github.com/grodansparadis/vscp_software/blob/master/src/vscp/common/vscp.h) and has the following format 
 
-```c
+```clike
 typedef struct  {
   uint8_t filter_priority;        // Priority 
   uint8_t mask_priority;
@@ -71,10 +69,10 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Set VSCP filter/mask.
 
-**Example** {% sample lang="c" %}
+#### C example
 Set filter.
 
-```c
+```clike
 // Set VSCP filter
 vscpEventFilter filter;
 filter.filter_class = 22;   // We are interested in events with VSCP class=22 only
@@ -90,10 +88,10 @@ else {
 }
 ```
 
-{% sample lang="c" %}
+#### C example
 Clear filter
 
-```c
+```clike
 // Clear the filter
 memset( &filter, 0, sizeof( vscpEventFilter ) );
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_setFilter( handle2, &filter ) ) ) {
@@ -104,7 +102,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 set filter
 
 ```python
@@ -149,7 +147,7 @@ else:
 
 ```
 
-{% sample lang="python" %}
+#### Python example
 Clear filter
 
 ```python
@@ -165,6 +163,6 @@ if VSCP_ERROR_SUCCESS != rv :
 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

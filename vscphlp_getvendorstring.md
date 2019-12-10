@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getVendorString
 
-```c
+```clike
 int vscphlp_getVendorString( long handle, 
                                 char *pVendor, 
                                 size_t len )
@@ -35,9 +33,9 @@ A tuple that consist of the return value (see c/c++ version) and the vendorstirn
 ### Description
 Fetch the vendor string from the driver. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Get vendor string
 char buf[120];
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_getVendorString( handle2, buf, sizeof(buf) ) ) ) {
@@ -49,7 +47,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "Get vendor string"
@@ -63,6 +61,6 @@ print "Vendor string = %s" % strvendor
 ### See Also
 [xxx](xxx.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

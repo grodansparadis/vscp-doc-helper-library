@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getRemoteVariableGUIDArray
 
-```c
+```clike
 int vscphlp_getRemoteVariableGUIDArray( long handle, 
                                 const char *pName, 
                                 const char * pGUID ) 
@@ -25,9 +23,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get variable value from GUID variable. Array type.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Read a value from a GUID variable - array type
 if ( VSCP_ERROR_SUCCESS == 
       ( rv = vscphlp_getRemoteVariableGUIDArray( handle1, "test_guidarray_variable", GUID  ) ) )  {
@@ -47,6 +45,6 @@ else {
 ### See Also
 [vscphlp_setRemoteVariableGUIDArray](vscphlp_setremotevariableguidarray.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdVendorString
 
-```c
+```clike
 const char *doCmdVendorString(void)
 ```
 
@@ -17,6 +15,6 @@ A pointer to a null terminated string containing vendor information is returned.
 ### Description
 Get the vendor (maker of DL/DLL) string. This is intended for CANAL. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

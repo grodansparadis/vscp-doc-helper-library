@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_enterReceiveLoop
 
-```c
+```clike
 int vscphlp_enterReceiveLoop( long handle )
 ```
 
@@ -21,8 +19,8 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Enter the receive loop. After this command only vscphlp_quitReceiveLoop and vscphlp_Close and the blocking receive methods [vscphlp_blockingReceiveEvent](vscphlp_blockingreceiveevent.md) / [vscphlp_blockingReceiveEventEx](vscphlp_blockingreceiveeventex.md) is available. The intent of the command is for threaded communication where one thread is sending events and one is receiving events and can use blocking calls to do so. 
 
-**Example** {% sample lang="c" %}
-```c
+#### C example
+```clike
 // Enter receiveloop
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_enterReceiveLoop( handle2 ) ) ) {
     printf( "Command success: vscphlp_enterReceiveLoop on channel 2\n" );
@@ -32,7 +30,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "Enter receive loop. Will lock channel on just receiving events"
@@ -66,6 +64,6 @@ else:
 [vscphlp_blockingReceiveEvent](vscphlp_blockingreceiveevent.md)  
 [vscphlp_blockingReceiveEventEx](vscphlp_blockingreceiveeventex.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

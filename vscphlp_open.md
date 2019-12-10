@@ -1,7 +1,6 @@
-{% method %}
-## vscphlp_open
 
-```c
+
+```clike
 long vscphlp_open( long handle,
                         const char *host, 
                         const char *username, 
@@ -45,9 +44,9 @@ VSCP_ERROR_SUCCESS is returned on success. VSCP_ERROR_INVALID_HANDLE will be ret
 ### Description
 Opens a session to the TCP/IP interface of a VSCP server. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Open Channel 1
 rv=vscphlp_open( handle1, 
                     "127.0.0.1:9598",
@@ -61,7 +60,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "\n\nConnection in progress..."
@@ -77,6 +76,6 @@ else:
 [vscphlp_openInterface](vscphlp_openinterface.md)  
 [vscphlp_close](vscphlp_close.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,7 @@
 
-{% method %}
-## getRemoteVariableVSCPclass
 
-```c
+
+```clike
 int getRemoteVariableVSCPclass( const wxString& name, 
                                 uint16_t *vscp_class)
 ```
@@ -21,6 +20,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get remote variable value from VSCP class variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdStatistics
 
-```c
+```clike
 int doCmdStatistics(VSCPStatistics *pStatistics)
 ```
 
@@ -17,6 +15,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get the VSCP statistics structure from the VSCP remote server. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

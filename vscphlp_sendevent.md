@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_sendEvent
 
-```c
+```clike
 int vscphlp_sendEvent( long handle, 
                         const vscpEvent *pEvent )
 ```
@@ -19,7 +17,7 @@ Handle for the communication channel obtained from a call to [vscphlp_newsession
 #### pEvent
 The level I or level II event to send. The structure vscpEvent is defined in [vscp.h](https://github.com/grodansparadis/vscp_software/blob/master/src/vscp/common/vscp.h) as 
 
-```c
+```clike
   typedef struct  {	
   uint16_t crc;           // crc checksum - currently only used for UDP and RF
   uint8_t  *pdata;        // Pointer to data. Max 487 (512- 25) bytes
@@ -59,9 +57,9 @@ Note that there is no need to calculate a crc for the data it is only used as pl
 
 [pyvscphlp_sendEventEx](vscphlp_sendeventex.md) may a better alternative to use with Python as that version does not have dynamically allocated event data but one should be aware that it is more wasteful with memory. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Send event on channel 1
 vscpEvent e;
 e.timestamp = 0                    // Let interface set timestamp
@@ -90,7 +88,7 @@ else {
 vscphlp_deleteVSCPevent( pEvent );  // This helper is the same as the above two commented lines 
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 e = vscpEvent()
@@ -116,6 +114,6 @@ e.pdata = None
 ### See Also
 [vscphlp_sendEventEx](vscphlp_sendeventex.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

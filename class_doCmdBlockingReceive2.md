@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdBlockingReceive
 
-```c
+```clike
 int doCmdBlockingReceive(vscpEventEx *pEventEx, 
                         uint32_t timeout = 500)
 ```
@@ -21,6 +19,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure. CANAL_ERROR_FIFO_EMP
 ### Description
 Receive an event ex from the remote VSCP server. The receiveloop command must have been issued for this method to work as. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_isMeasurement
 
-```c
+```clike
 int vscphlp_isMeasurement( const vscpEvent *pEvent )
 ```
 
@@ -18,6 +16,6 @@ VSCP_ERROR_SUCCESS is returned if the event is a measurement, VSCP_ERROR_ERROR i
 Check if an event is a measurement. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

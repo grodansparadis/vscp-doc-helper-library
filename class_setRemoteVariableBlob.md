@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableBlob
 
-```c
+
+
+```clike
 int setRemoteVariableBlob( const wxString& name, 
                             wxString& blob )
 ```
@@ -21,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set remote variable from BASE64 encoded blob. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

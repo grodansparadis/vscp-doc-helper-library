@@ -1,7 +1,6 @@
-{% method %}
-## vscphlp_setVscpPriorityEx
 
-```c
+
+```clike
 void vscphlp_setVscpPriorityEx( vscpEventEx *pEvent, 
                                 unsigned char priority )
 ```
@@ -18,9 +17,9 @@ None
 ### Description
 Set Event priority. Priority is defined as a value between 0-7 where 0 is the highest priority. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscpEventEx ex3;
 ex3.head = 0;
 ex3.vscp_class = 10;
@@ -53,6 +52,6 @@ else {
 ### See Also
 [vscphlp_setVscpPriority](vscphlp_setvscppriority.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

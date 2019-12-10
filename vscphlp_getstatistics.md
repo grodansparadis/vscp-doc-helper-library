@@ -1,8 +1,7 @@
-{% method %}
-## vscphlp_getStatistics
 
 
-```c
+
+```clike
 int vscphlp_getStatistics( long handle, 
                             canalStatistics *pStatistics )
 ```
@@ -19,7 +18,7 @@ Handle for the communication channel obtained from a call to [vscphlp_newsession
 #### pStatistics (c/c++)
 A pointer to a VSCP statistics structure as defined in [vscp.h](https://github.com/grodansparadis/vscp_software/blob/master/src/vscp/common/vscp.h). The format is 
 
-```c
+```clike
 typedef struct structVSCPStatistics {
   unsigned long cntReceiveFrames;             // # of receive frames
   unsigned long cntTransmitFrames;            // # of transmitted frames
@@ -64,11 +63,11 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get VSCP statistics. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
 Get statistics
 
-```c
+```clike
 // Get statistics
 VSCPStatistics stat;
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_getStatistics( handle2, &stat ) ) ) {
@@ -79,7 +78,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 Get statistics
 
@@ -97,6 +96,6 @@ print "Transmitted data = %d" % statistics.cntTransmitData
 print "Overruns = %d" % statistics.cntOverruns
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

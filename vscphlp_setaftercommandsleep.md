@@ -1,7 +1,6 @@
-{% method %}
-## vscphlp_setAfterCommandSleep
 
-```c
+
+```clike
 int vscphlp_setAfterCommandSleep( long handle, 
                 unsigned short millisecondSleep )
 ```
@@ -25,14 +24,14 @@ VSCP_ERROR_SUCCESS is returned on success. VSCP_ERROR_INVALID_HANDLE is returned
 ### Description
 This is the sleep time in milliseconds used to wait for the server to reply to a command. If there is not valid response received the thread will sleep for the amount of time set here + 200 milliseconds and then check the queue again for a valid response then sleep again and so on until the time set for the response timeout has elapsed, a valid response or an error response has been received. Default value is 0 milliseconds. 
 
-{% sample lang="c" %}
+#### C example
 
 
-```c
+```clike
 
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 
 ```python
@@ -42,6 +41,6 @@ This is the sleep time in milliseconds used to wait for the server to reply to a
 ### See Also
 [vscphlp_setResponseTimeout](vscphlp_setresponsetimeout.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdDataAvailable
 
-```c
+```clike
 int doCmdDataAvailable(void)
 ```
 
@@ -15,6 +13,6 @@ Return the number of events available in the queue at the remote VSCP server or 
 ### Description
 Get the number of events in the input queue of this interface 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

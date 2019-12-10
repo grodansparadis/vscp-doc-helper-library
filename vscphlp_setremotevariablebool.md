@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_setRemoteVariableBool
 
-```c
+```clike
 int vscphlp_setRemoteVariableBool( long handle, const 
                                     char *pName, 
                                     bool bValue ) 
@@ -25,9 +23,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get variable value from boolean variable 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Write a value (false) to a boolean variable
 if ( VSCP_ERROR_SUCCESS == 
         ( rv = vscphlp_setRemoteVariableBool( handle1, "test_bool_variable", 0 )  ) ) {
@@ -41,6 +39,6 @@ else {
 ### See Also
 [vscphlp_setRemoteVariableString](vscphlp_setremotevariablestring.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

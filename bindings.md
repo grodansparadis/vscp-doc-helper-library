@@ -83,4 +83,4 @@ We are of course interested in other bindings as well. Let us know.
 
 
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

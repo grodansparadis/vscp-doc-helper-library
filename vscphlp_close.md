@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_close
 
-```c
+```clike
 int vscphlp_close( long handle )
 ```
 
@@ -21,15 +19,15 @@ VSCP_ERROR_SUCCESS is returned on sucess. VSCP_ERROR_INVALID_HANDLE will be retu
 ### Description
 Close the interface. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS == vscphlp_close( handle1 ) ) {
     prinf("Closed successfully.\n");
  }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "command: close"
@@ -43,6 +41,6 @@ if VSCP_ERROR_SUCCESS != rv :
 [vscphlp_open](vscphlp_open.md)  
 [vscphlp_openInterface](vscphlp_openinterface.md)  
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

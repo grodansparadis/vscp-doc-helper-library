@@ -1,7 +1,6 @@
-{% method %}
-## vscphlp_getRemoteVariableJavaScript
 
-```c
+
+```clike
 vscphlp_getRemoteVariableJavaScript( long handle, 
                                 const char *pName, 
                                 char *pValue, 
@@ -28,13 +27,13 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get variable value from JavaScript variable. The returned value is BASE64 encoded. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 TODO
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 TODO
@@ -43,6 +42,6 @@ TODO
 ### See Also
 [vscphlp_setRemoteVariableJavaScript](vscphlp_setRremotevariablejavascript.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

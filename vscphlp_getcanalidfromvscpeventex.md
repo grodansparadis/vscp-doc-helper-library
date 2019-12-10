@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getCANALidFromVSCPeventEx
 
-```c
+```clike
 unsigned long 
 vscphlp_getCANALidFromVSCPeventEx( const vscpEventEx *pEvent )
 ```
@@ -17,9 +15,9 @@ CANAL (CAN) id.
 ### Description
 Get CANAL id (CAN id) from VSCP event. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 constr_canal_id2 = vscphlp_getCANALidFromVSCPeventEx( &ex ); 
 if ( 0x0c0a0600 == constr_canal_id2 ) {
     printf("Nickname = %08X\n", constr_canal_id2 );
@@ -32,6 +30,6 @@ else {
 ### See Also
 [vscphlp_getCANALidFromVSCPevent](vscphlp_getcanalidfromvscpevent.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

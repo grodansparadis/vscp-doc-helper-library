@@ -1,8 +1,6 @@
 
-{% method %}
-## getRemoteVariableList
 
-```c
+```clike
 int getRemoteVariableList( wxArrayString& arrayVars, 
                         const wxString regexp = _(""),
                         const int type = 0 )
@@ -25,6 +23,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get a list of defined variables on remote VSCP server. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

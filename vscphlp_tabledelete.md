@@ -1,8 +1,5 @@
 
-{% method %}
-## tableDelete
-
-```c
+```clike
 int vscphlp_tableDelete( const unsigned char *pName, 
                             int bDeleteFile )
 ```
@@ -26,6 +23,6 @@ Delete named table.
 ### See Also
 [vscphlp_tableCreate](vscphlp_tablecreate.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

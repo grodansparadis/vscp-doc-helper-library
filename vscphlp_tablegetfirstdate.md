@@ -1,8 +1,7 @@
 
-{% method %}
-## tableGetFirstDate
 
-```c
+
+```clike
 int vscphlp_tableGetFirstDate( const unsigned char pName, 
                         const char *pFrom, 
                         const char *pTo,
@@ -33,6 +32,6 @@ Get the first data/time for an interval in a named table.
 ### See Also
 [vscphlp_tableGetLastDate](vscphlp_tablegetlastdate.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

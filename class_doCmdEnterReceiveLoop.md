@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdEnterReceiveLoop
 
-```c
+```clike
 int doCmdEnterReceiveLoop(void)
 ```
 
@@ -20,6 +18,6 @@ This command sets an open interface in the receive loop (RCVLOOP) state. It does
 ### See Also
 [doCmdQuitReceiveLoop](class_doCmdQuitReceiveLoop.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

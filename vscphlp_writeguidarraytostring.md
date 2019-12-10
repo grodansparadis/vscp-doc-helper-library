@@ -1,8 +1,7 @@
 
-{% method %}
-## vscphlp_writeGuidArrayToString
 
-```c
+
+```clike
 int vscphlp_writeGuidArrayToString( const unsigned char * pGUID, 
                                     char *strGUID,
                                     size_t len )
@@ -25,9 +24,9 @@ VSCP_ERROR_SUCCESS on success.
 ### Description
 Write GUID from byte array to string. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS == vscphlp_writeGuidArrayToString( GUID2, strguid2, sizeof( strguid2 )-1 ) ) {
     printf( "GUID=%s\n", strguid2 );
 }
@@ -37,6 +36,6 @@ else {
 ```
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

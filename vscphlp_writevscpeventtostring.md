@@ -1,8 +1,7 @@
 
-{% method %}
-## vscphlp_writeVscpEventToString
 
-```c
+
+```clike
 int vscphlp_writeVscpEventToString( const vscpEvent *pEvent, 
                                     char *pstr, 
                                     size_t len )
@@ -25,9 +24,9 @@ VSCP_ERROR_SUCCESS is returned on success.
 ### Description
 Write VSCP event content to a string. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 char eventBuf[128];
 if ( VSCP_ERROR_SUCCESS == vscphlp_writeVscpEventToString( pEvent, eventBuf, sizeof( eventBuf )-1 ) ) {
     printf( "OK vscphlp_writeVscpEventToString Event = %s\n", eventBuf );    
@@ -35,9 +34,12 @@ if ( VSCP_ERROR_SUCCESS == vscphlp_writeVscpEventToString( pEvent, eventBuf, siz
 else {
     printf( "\aError: vscphlp_writeVscpEventToString\n");
 }
+```
+
+### See Also
 
 [vscphlp_writeVscpEventExToString](vscphlp_writevscpeventextostring.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

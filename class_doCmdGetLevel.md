@@ -1,8 +1,7 @@
 
-{% method %}
-## doCmdGetLevel
 
-```c
+
+```clike
 unsigned long doCmdGetLevel(void)
 ```
 
@@ -15,6 +14,6 @@ Return the constant VSCP_LEVEL2.
 ### Description
 Get the CANAL protocol level. Mainly used by the CANAL/VSCP combined subsystem. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

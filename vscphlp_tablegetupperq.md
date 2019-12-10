@@ -1,8 +1,7 @@
 
-{% method %}
-## tableGetUpperQ
 
-```c
+
+```clike
 int vscphlp_tableGetUpperQ( const unsigned char *pName, 
                     const char *pFrom, 
                     const char *pTo,
@@ -29,6 +28,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get the upper/third quartile of all values for an interval in a named table. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

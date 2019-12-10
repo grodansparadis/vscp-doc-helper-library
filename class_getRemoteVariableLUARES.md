@@ -1,8 +1,7 @@
 
-{% method %}
-## getRemoteVariableLUARES
 
-```c
+
+```clike
 int getRemoteVariableLUARES( const wxString& name, 
                             wxString& luares )
 ```
@@ -21,6 +20,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get remote variable value from a base64 ENCODED LUARES variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

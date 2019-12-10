@@ -1,7 +1,6 @@
-{% method %}
-## doCmdSend
 
-```c
+
+```clike
 int doCmdSend(const vscpEvent *pEvent)
 ```
 
@@ -16,6 +15,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Send a VSCP Level II event to the VSCP remote server. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,8 @@
 
-{% method %}
-## tableGetRaw
 
-```c
+
+
+```clike
 int tableGetRaw( const wxString& tblName, 
                     const wxDateTime& from, 
                     const wxDateTime& to,
@@ -38,6 +38,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Get data from a named table in a range to-from. All columns of the table is always returned. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

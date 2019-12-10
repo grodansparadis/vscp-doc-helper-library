@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdFilter
 
-```c
+```clike
 int doCmdFilter(const wxString& filter, const wxString& mask)
 ```
 
@@ -20,6 +18,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set the receive filter on the remote VSCP server. By setting the filter on can select which events one want to receive. It is possible to open several channels ans have a filter on each for complex setups. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

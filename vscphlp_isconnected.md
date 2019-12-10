@@ -1,7 +1,6 @@
-{% method %}
-## vscphlp_isConnected
 
-```c
+
+```clike
 int vscphlp_isConnected( long handle )
 ```
 
@@ -20,15 +19,15 @@ VSCP_ERROR_SUCCESS if the session is active and VSCP_ERROR_ERROR if it is inacti
 ### Description
 Check if the session is active or not. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS == vscphlp_isConnected( handle1 ) ) {
     // Do your stuff here 
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "\n\nConnection in progress..."
@@ -46,6 +45,6 @@ else:
 ```
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

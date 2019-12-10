@@ -1,8 +1,8 @@
 
-{% method %}
-## tableGet
 
-```c
+
+
+```clike
 int tableGet( const wxString& tblName, 
                 const wxDateTime& from, 
                 const wxDateTime& to,
@@ -43,6 +43,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get data from a named table in a range to-from. One can fetch all columns of the table (bFull) or just datetime and value (default). 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

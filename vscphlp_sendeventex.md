@@ -1,8 +1,5 @@
 
-{% method %}
-## vscphlp_sendEventEx
-
-```c
+```clike
 int vscphlp_sendEventEx( long handle, 
                             const vscpEventEx *pEvent )
 ```
@@ -20,7 +17,7 @@ Handle for the communication channel obtained from a call to [vscphlp_newsession
 
 The level I or level II event to send. The structure *vscpEventEx* is defined in [vscp.h](https://github.com/grodansparadis/vscp_software/blob/master/src/vscp/common/vscp.h) as 
 
-```c
+```clike
   typedef struct {	
   uint16_t crc;                   // crc checksum
  
@@ -63,9 +60,9 @@ Send a VSCP event. If the event is not successfully sent it's the calling progra
 
 Note that there is no need to calculate a crc for the data it is only used as placeholder for more insecure transfer mechanisms. Also head, obid, the UTC timeblock and timestamp can be set to zero in most cases. The timeblock and timestamp will be set by the server interface when the event is received. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscpEventEx ex;
 e.timestamp = 0                    // Let interface set timestamp
 e.year = e.month = e.day = 0;      // Let interface set date
@@ -88,7 +85,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 ex = vscpEventEx()
@@ -109,6 +106,6 @@ if VSCP_ERROR_SUCCESS != rv :
 ### See Also
 [pyvscphlp_sendEventEx](pyvscphlp_sendevent.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

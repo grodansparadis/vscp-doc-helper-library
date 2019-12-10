@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getISOTimeString
 
-```c
+```clike
 int vscphlp_getISOTimeString( char *buf, 
                                 size_t buf_len, 
                                 time_t *t )
@@ -28,6 +26,6 @@ VSCP_ERROR_SUCCESS on success.
 ### Description
 Get ISO time string from time_t.
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

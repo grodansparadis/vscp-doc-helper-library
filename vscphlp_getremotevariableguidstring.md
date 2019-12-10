@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getRemoteVariableGUIDString
 
-```c
+```clike
 int vscphlp_getRemoteVariableGUIDString( long handle,    
                                     const char *pName, 
                                     const char *pGUID, 
@@ -29,9 +27,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get variable value from GUID variable.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Read a value from a GUID variable - string type
 if ( VSCP_ERROR_SUCCESS == 
          ( rv = vscphlp_getRemoteVariableGUIDString( handle1, "test_guidstr_variable", strGUID, sizeof(strGUID)-1 )  ) )  {
@@ -47,6 +45,6 @@ else {
 ### See Also
 [vscphlp_setRemoteVariableGUIDString](vscphlp_setremotevariableguidstring.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdInterfaceList
 
-```c
+```clike
 int doCmdInterfaceList(wxArrayString& arrayIf)
 ```
 
@@ -18,6 +16,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Get available interfaces on the VSCP remote server. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

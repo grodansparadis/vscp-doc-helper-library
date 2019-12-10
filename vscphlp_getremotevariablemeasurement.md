@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getRemoteVariableMeasurement
 
-```c
+```clike
 long tttt(void)
 ```
 
@@ -40,9 +38,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get variable value, unit, sensor index, zone, subzone from a named measurement variable. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Read a value from a measurement variable 
 if ( VSCP_ERROR_SUCCESS == 
        ( rv = vscphlp_getRemoteVariableMeasurement( handle1, "test_measurement_variable", strBuf, sizeof(strBuf)-1  ) ) ) {
@@ -58,6 +56,6 @@ else {
 ### See Also
 [vscphlp_setRemoteVariableMeasurement](vscphlp_setremotevariablemeasurement.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

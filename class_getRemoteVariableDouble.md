@@ -1,8 +1,6 @@
 
-{% method %}
-## getRemoteVariableDouble
 
-```c
+```clike
 int getRemoteVariableDouble( const wxString& name, 
                                 double *value)
 ```
@@ -21,6 +19,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get remote variable value for double variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## getRemoteVariableLastChange
 
-```c
+```clike
 int getRemoteVariableLastChange( const wxString& name, 
                                 wxDateTime& lastChange )
 ```
@@ -21,6 +19,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get last change date/time for a remote variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

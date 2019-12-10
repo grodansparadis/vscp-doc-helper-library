@@ -1,8 +1,7 @@
 
-{% method %}
-## saveRemoteVariablesToDisk
 
-```c
+
+```clike
 int saveRemoteVariablesToDisk( const wxString& path, 
                         const int select=0, 
                         const wxString& regExp=_("") )
@@ -29,6 +28,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Save (selected) variables to external disk space in XML format. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

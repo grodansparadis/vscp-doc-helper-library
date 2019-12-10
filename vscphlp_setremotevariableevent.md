@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_setRemoteVariableEvent
 
-```c
+```clike
 int vscphlp_setRemoteVariableEvent( long handle, 
                                 const char *pName, 
                                 vscpEvent *pEvent ) 
@@ -25,9 +23,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Set variable value from event variable 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Write a value to an event variable
 pEvent = new vscpEvent;
 pEvent->head = 0;
@@ -59,6 +57,6 @@ vscphlp_deleteVSCPevent( pEvent );
 ### See Also
 [vscphlp_getRemoteVariableEvent](vscphlp_getremotevariableevent.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

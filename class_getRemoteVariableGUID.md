@@ -1,8 +1,6 @@
 
-{% method %}
-## getRemoteVariableGUID
 
-```c
+```clike
 int getRemoteVariableGUID( const wxString& name, 
                             cguid& guid )
 ```
@@ -22,6 +20,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Get remote variable value for GUID variable. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

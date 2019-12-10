@@ -1,8 +1,7 @@
 
-{% method %}
-## tableGetVariance
 
-```c
+
+```clike
 int vscphlp_tableGetVariance( const unsigned char *pName, 
                         const char *pFrom, 
                         const char *pTo,
@@ -30,6 +29,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Get the variance of all values for an interval in a named table. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## tableLogSQL
 
-```c
+```clike
 int tableLogSQL( const wxString& tblName, 
                 const wxString& sql )
 ```
@@ -22,6 +20,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Log data to with a SQL expression. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

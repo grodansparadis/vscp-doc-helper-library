@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableMIME
 
-```c
+
+
+```clike
 int setRemoteVariableMIME( const wxString& name, 
                             wxString& mime )
 ```
@@ -22,6 +22,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Set remote variable value from BASE64 encoded MIME data. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

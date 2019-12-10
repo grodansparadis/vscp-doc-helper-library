@@ -1,8 +1,7 @@
 
-{% method %}
-## tableLogSQL
 
-```c
+
+```clike
 int vscphlp_tableLogSQL( const unsigned char *pName, 
                 const unsigned char *psql )
 ```
@@ -27,6 +26,6 @@ Log data to with a SQL expression.
 ### See Also
 [vscphlp_tableLog](vscphlp_tablelog.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## fetchIterfaceGUID
 
-```c
+```clike
 int fetchIterfaceGUID( const wxString& ifName, 
                         cguid& guid )
 ```
@@ -21,6 +19,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Fetch guid for a tcp/ip interface from it's name. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

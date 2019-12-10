@@ -1,8 +1,7 @@
 
-{% method %}
-## getRemoteVariableVSCPdata
 
-```c
+
+```clike
 int getRemoteVariableVSCPdata( const wxString& name, 
                                 uint8_t *psizeData, 
                                 uint16_t *pData)
@@ -25,6 +24,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get remote variable value from VSCP data variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,5 @@
 
-{% method %}
-## vscphlp_blockingReceiveEventEx
-
-```c
+```clike
 int vscphlp_blockingReceiveEventEx( long handle, 
                                 vscpEventEx *Eventex, 
                                 unsigned long timeout )
@@ -33,9 +30,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Blocking receive one VSCP event from the remote VSCP server if there is one available in the server queue. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscpEventEx ex;
  
 if ( VSCP_ERROR_SUCCESS == vscphlp_blockingReceiveEventEx( handle2, &ex ) ) {
@@ -55,7 +52,7 @@ if ( VSCP_ERROR_SUCCESS == vscphlp_blockingReceiveEventEx( handle2, &ex ) ) {
 vscphlp_deleteVSCPevent( pEvent );
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "Enter receive loop. Will lock channel on just receiving events"
@@ -89,6 +86,6 @@ else:
 [vscphlp_quitReceiveLoop](vscphlp_quitreceiveloop.md)   
 [vscphlp_blockingReceiveEvent](vscphlp_blockingreceiveevent.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

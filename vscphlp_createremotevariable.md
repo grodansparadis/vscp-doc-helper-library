@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_createRemoteVariable
 
-```c
+```clike
 int vscphlp_createRemoteVariable( long handle, 
                                     const char *pName,
                                     const char* pType,
@@ -35,9 +33,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Create a variable of a specific type. All the write methods below also create a variable if it does not exist but this method also allows to set the persistence. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Create a variable
 char strBuf[32];
 if ( VSCP_ERROR_SUCCESS == 
@@ -65,6 +63,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

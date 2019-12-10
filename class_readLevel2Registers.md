@@ -1,8 +1,7 @@
 
-{% method %}
-## readLevel2Registers
 
-```c
+
+```clike
 int readLevel2Registers( uint32_t reg,
                         uint16_t page,
                         uint8_t count,
@@ -41,6 +40,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Read one or more level II registers. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

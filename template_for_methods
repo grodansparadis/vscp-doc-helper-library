@@ -1,7 +1,7 @@
-{% method %}
+
 ## vscphlp_xxx
 
-```c
+```clike
 long tttt(void)
 ```
 
@@ -20,14 +20,14 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 bbbb
 
-**Example** {% sample lang="c" %}
+#### C example
 mmmm
 
-```c
+```clike
 TODO
 ```
 
-{% sample lang="python" %}
+#### Python example
 mmm
 
 ```python
@@ -37,9 +37,9 @@ TODO
 ### See Also
 [xxx](xxx.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')
 
 
 ----

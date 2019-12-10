@@ -1,8 +1,6 @@
 
-{% method %}
-## createRemoteVariable
 
-```c
+```clike
 int createRemoteVariable( const wxString& name, 
                                 const wxString& strType,
                                 const bool bPersistent,
@@ -41,6 +39,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Create a new remote variable.
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}                                
+
+[filename](./bottom_copyright.md ':include')                                

@@ -1,8 +1,7 @@
 
-{% method %}
-## doCmdMask
 
-```c
+
+```clike
 int doCmdMask(uint32_t mask)
 ```
 
@@ -18,6 +17,6 @@ Always return CANAL_ERROR_SUCCESS.
 Dummy for required CANAL method. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

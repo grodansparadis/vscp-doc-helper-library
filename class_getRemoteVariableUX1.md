@@ -1,8 +1,6 @@
-getRemoteVariableUX1
-{% method %}
-## vscphlp_xxx
 
-```c
+
+```clike
 int getRemoteVariableUX1( const wxString& name, 
                             wxString& ux1 )
 ```
@@ -22,6 +20,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Get remote variable value from a base64 ENCODED UX1 variable.
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

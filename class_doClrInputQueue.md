@@ -1,8 +1,6 @@
 
-{% method %}
-## doClrInputQueue
 
-```c
+```clike
 void doClrInputQueue(void)
 ```
 
@@ -15,6 +13,6 @@ None
 ### Description
 Clear the input queue 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getDataCodingInteger
 
-```c
+```clike
 unsigned long long 
 vscphlp_getDataCodingInteger(const unsigned char *pCode, 
                             int size )
@@ -22,9 +20,9 @@ A double precision floating point value that is the decimal representation of th
 ### Description
 Get measurement data that is coded as a aigned integer (1-7 bytes) as a 64-bit integer. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 unsigned char normarry[4];
 normarry[0] = 0x60; // Data coding byte:integer, unit=0, sensoridx=0
 normarry[1] = 0xFF;
@@ -39,6 +37,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## tableGetRaw
 
-```c
+```clike
 int vscphlp_tableGetRaw( const unsigned char *pName, 
                 const char *pFrom, 
                 const char *pTo,
@@ -40,6 +38,6 @@ Get data from a named table in a range to-from. All columns of the table is alwa
 ### See Also
 [vscphlp_tableGet](vscphlp_tableget.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

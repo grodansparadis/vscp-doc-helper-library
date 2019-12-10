@@ -1,8 +1,6 @@
 
-{% method %}
-## deleteRemoteVariable
 
-```c
+```clike
 int deleteRemoteVariable( const wxString& name )
 ```
 
@@ -18,6 +16,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Delete named remote variable.
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

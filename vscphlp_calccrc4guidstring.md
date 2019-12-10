@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_calcCRC4GUIDString
 
-```c
+```clike
 unsigned char vscphlp_calcCRC4GUIDString( unsigned char *strguid)
 ```
 
@@ -18,10 +16,9 @@ String containing GUID on standard string form.
 ### Description
 Calculate 8-bit crc for a GUID string. 
 
-**Example** {% sample lang="c" %}
-mmmm
+#### C example
 
-```c
+```clike
 // Calculate GUID for GUID string
 char strguid[64];
 strcpy( strguid, "FF:FF:FF:FF:FF:FF:FF:00:00:00:00:7F:00:01:01:FD" );
@@ -29,6 +26,6 @@ crc8 = vscphlp_calcCRC4GUIDString( strguid);
 printf("CRC = %02X\n", crc8 )
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

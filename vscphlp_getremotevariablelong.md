@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getRemoteVariableLong
 
-```c
+```clike
 int vscphlp_getRemoteVariableLong( long handle, const 
                                     char *pName, 
                                     long *value ) 
@@ -25,9 +23,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get variable value from long variable.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Read a value from a long variable
 long longValue;
 if ( VSCP_ERROR_SUCCESS == 
@@ -43,6 +41,6 @@ else {
 ### See Also
 [vscphlp_setRemoteVariableLong](vscphlp_setremotevariablelong.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

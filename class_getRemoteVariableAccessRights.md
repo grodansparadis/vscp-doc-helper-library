@@ -1,8 +1,6 @@
 
-{% method %}
-## getRemoteVariableAccessRights
 
-```c
+```clike
 int getRemoteVariableAccessRights( const wxString& name, 
                                     uint16_t *pRights )
 ```
@@ -22,6 +20,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Get access rights for a remote variable. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

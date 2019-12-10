@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_convertFloatToNormalizedEventData
 
-```c
+```clike
 int vscphlp_convertFloatToNormalizedEventData( 
                             unsigned char *pdata,        unsigned short *psize,    
                             double value, 
@@ -33,12 +31,12 @@ VSCP_ERROR_SUCCESS is returned on success.
 ### Description
 Write a 64-bit floating point value as event measurement data. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 Example will be added. TODO
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

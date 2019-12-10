@@ -1,8 +1,7 @@
 
-{% method %}
-## vscphlp_setRemoteVariableLong
 
-```c
+
+```clike
 int vscphlp_setRemoteVariableLong( long handle, const 
                                     char *pName, 
                                     long value ) 
@@ -26,9 +25,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get variable value from long variable.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c// Write a value to an long variable
+```clike// Write a value to an long variable
 if ( VSCP_ERROR_SUCCESS == 
     ( rv = vscphlp_setRemoteVariableLong( handle1, "test_long_variable", 123456780 )  ) ) {
     printf( "Command success: vscphlp_setRemoteVariableLong on channel 1\n" );
@@ -41,6 +40,6 @@ else {
 ### See Also
 [vscphlp_getRemoteVariableLong](vscphlp_getremotevariablelong.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

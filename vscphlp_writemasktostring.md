@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_writeMaskToString
 
-```c
+```clike
 int vscphlp_writeMaskToString( vscpEventFilter *pFilter, 
                                 char * strMask )
 ```
@@ -23,9 +21,9 @@ VSCP_ERROR_SUCCESS on success.
 ### Description
 Write the mask in comma separated form to a string. If strMask is an empty string elements in mask will be set to zero. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS != vscphlp_writeMaskToString( &filter, 
                 "1,0x0000,0x0006,ff:ff:ff:ff:ff:ff:ff:01:00:00:00:00:00:00:00:00" ) ) {
     printf( "\aError: vscphlp_writeMaskToString\n");   
@@ -36,6 +34,6 @@ if ( VSCP_ERROR_SUCCESS != vscphlp_writeMaskToString( &filter,
 [vscphlp_readMaskFromString](vscphlp_readmaskfromstring.md)
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

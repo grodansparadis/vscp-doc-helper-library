@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableVSCPtype
 
-```c
+
+
+```clike
 int setRemoteVariableVSCPtype( const wxString& name, 
                                 uint16_t vscp_type)
 ```
@@ -21,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set remote variable value from VSCP type. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

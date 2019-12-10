@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_readFilterFromString
 
-```c
+```clike
 int vscphlp_readFilterFromString( vscpEventFilter *pFilter, 
                             char *strFilter )
 ```
@@ -38,9 +36,9 @@ Read a filter from a string. If strFilter is an empty string all elements in fil
 
 and all is optional but if given must be given in order. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS != vscphlp_readFilterFromString( &filter, 
                 "1,0x0000,0x0006,ff:ff:ff:ff:ff:ff:ff:01:00:00:00:00:00:00:00:00" ) ) {
     printf( "\aError: vscphlp_readFilterFromString\n");   
@@ -50,6 +48,6 @@ if ( VSCP_ERROR_SUCCESS != vscphlp_readFilterFromString( &filter,
 ### See Also
 [vscphlp_writeFilterToString](vscphlp_writefiltertostring.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

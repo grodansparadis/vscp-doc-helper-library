@@ -2,4 +2,4 @@
 
 See examples [here](https://github.com/grodansparadis/vscp/tree/master/tests/helperlib) or helperlib usage.
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

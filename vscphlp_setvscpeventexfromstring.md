@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_setVscpEventExFromString
 
-```c
+```clike
 int vscphlp_setVscpEventExFromString( vscpEventEx *pEvent, 
                                         const char *pstr )
 ```
@@ -25,9 +23,9 @@ VSCP_ERROR_SUCCESS is returned on success.
 ### Description
 Set VSCP event ex from a string. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscpEventEx ex6;
 if ( VSCP_ERROR_SUCCESS == vscphlp_setVscpEventExFromString( &ex6,  
       "0,10,6,0,20170102T19:32:48,0,FF:FF:FF:FF:FF:FF:FF:00:00:00:00:7F:00:01:01:FD,0x8A,0x00,0x1E" ) ) 
@@ -42,6 +40,6 @@ else {
 ### See Also
 [vscphlp_setVscpEventFromString](vscphlp_setvscpeventfromstring.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

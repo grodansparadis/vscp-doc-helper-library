@@ -1,8 +1,6 @@
 
-{% method %}
-## getRemoteVariableJavaScript
 
-```c
+```clike
 int getRemoteVariableJavaScript( const wxString& name, 
                                 wxString& js )
 ```
@@ -21,6 +19,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get remote variable value from a base64 ENCODED JavaScript variable.
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

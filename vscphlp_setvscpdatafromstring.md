@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_setVscpDataFromString
 
-```c
+```clike
 int vscphlp_setVscpDataFromString( vscpEvent *pEvent, 
                                    const char *pstr )
 ```
@@ -25,9 +23,9 @@ VSCP_ERROR_SUCCESS is returned on success.
 ### Description
 Set data in VSCP event from a string. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscpEvent e;
  
 if ( VSCP_ERROR_SUCCESS == 
@@ -44,6 +42,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

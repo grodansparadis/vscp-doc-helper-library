@@ -1,8 +1,7 @@
 
-{% method %}
-## doCmdSendEx
 
-```c
+
+```clike
 int doCmdSendEx(const vscpEventEx *pEventEx)
 ```
 
@@ -20,6 +19,6 @@ Send a VSCP Level II event ex to the VSCP remote server.
 *A vscpEvent structure contains a pointer to the data part of the event, while the vscpEventEx have the max data storage allocated in every event and therefore waste a lot of memory that can be used in a better way.*
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

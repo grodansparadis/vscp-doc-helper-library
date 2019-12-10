@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getDataCodingNormalizedInteger
 
-```c
+```clike
 double 
 vscphlp_getDataCodingNormalizedInteger(const unsigned char *pCode, 
                                         int size )
@@ -22,9 +20,9 @@ A double precision floating point value that is the decimal representation of th
 ### Description
 Get measurement data that is coded as a normalized integer as a floating point value.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 unsigned char normarry[4];
 normarry[0] = 0x89; // Data coding byte: Normalized integer, unit=1, sensoridx=1
 normarry[1] = 0x02;
@@ -39,6 +37,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

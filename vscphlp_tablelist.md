@@ -1,8 +1,7 @@
 
-{% method %}
-## tableList
 
-```c
+
+```clike
 int vscphlp_tableList( unsigned char **pLists )
 ```
 
@@ -19,6 +18,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Get a list of all defined tables. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdStatus
 
-```c
+```clike
 int doCmdStatus(VSCPStatus *pStatus)
 ```
 
@@ -17,6 +15,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Receive the VSCP status structure from the remote VSCP server. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

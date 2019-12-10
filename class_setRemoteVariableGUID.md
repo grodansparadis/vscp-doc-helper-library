@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableGUID
 
-```c
+
+
+```clike
 int setRemoteVariableGUID( const wxString& name, 
                             cguid& guid)
 ```
@@ -22,6 +22,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Set remote variable value for VSCP guid variable. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

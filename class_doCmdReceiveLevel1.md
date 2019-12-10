@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdReceiveLevel1
 
-```c
+```clike
 int doCmdReceiveLevel1(canalMsg *pCanalMsg)
 ```
 
@@ -18,6 +16,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Receive an VSCP Level I event from the VSCP remote server queue. The low eight bits of the CAN id is fetched from GUID[15], that is from the LSB of the GUID. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

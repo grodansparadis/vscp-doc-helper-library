@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_convertLevel1MeasuremenToLevel2Double
 
-```c
+```clike
 int vscphlp_convertLevel1MeasuremenToLevel2Double( vscpEvent *pEvent )
 ```
 
@@ -21,6 +19,6 @@ Convert Level I measurement to a Level II float measurement event [CLASS2.MEASUR
 ### See Also
 [vscphlp_convertLevel1MeasuremenToLevel2String](vscphlp_convertlevel1measurementolevel2string.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

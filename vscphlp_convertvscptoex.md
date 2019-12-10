@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_convertVSCPtoEx
 
-```c
+```clike
 int vscphlp_convertVSCPtoEx( vscpEventEx *pEventEx, 
                               const vscpEvent *pEvent )
 ```
@@ -21,9 +19,9 @@ VSCP_ERROR_SUCCESS on success.
 ### Description
 Convert VSCP standard event form to ex form. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscpEventEx ex4;
 if ( VSCP_ERROR_SUCCESS != vscphlp_convertVSCPtoEx( &ex4, pEvent ) ) {
     printf( "\aError: vscphlp_getGuidFromStringToArray\n");
@@ -34,6 +32,6 @@ if ( VSCP_ERROR_SUCCESS != vscphlp_convertVSCPtoEx( &ex4, pEvent ) ) {
 ### See Also
 [vscphlp_convertVSCPfromEx](vscphlp_convertvscpfromex.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

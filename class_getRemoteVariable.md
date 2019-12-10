@@ -1,8 +1,6 @@
 
-{% method %}
-## getRemoteVariable
 
-```c
+```clike
 int getRemoteVariable( const wxString& name, 
                         wxString& strVariable )
 ```
@@ -25,6 +23,6 @@ Format is:
 
     "variable name";"type";"persistence";"user";"rights";"value";"note"
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

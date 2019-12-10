@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_convertEventExToHTML
 
-```c
+```clike
 int vscphlp_convertEventExToHTML( vscpEventEx *pEventEx, 
                                     char *pBuffer, 
                                     size_t len )
@@ -29,6 +27,6 @@ Write VSCP event-ex on HTML format to string. Format is specified in [vscp.h](ht
 ### See Also
 [vscphlp_convertEventToHTML](vscphlp_converteventtohtml.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,7 +1,6 @@
-{% method %}
-## vscphlp_deleteVSCPevent_v2
 
-```c
+
+```clike
 void vscphlp_deleteVSCPevent_v2( vscpEvent *pEvent )
 ```
 
@@ -17,9 +16,9 @@ None.
 ### Description
 Delete VSCP event. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscphlp_deleteVSCPevent_v2( pEvent );
 ```
 
@@ -27,6 +26,6 @@ vscphlp_deleteVSCPevent_v2( pEvent );
 [vscphlp_newVSCPevent](vscphlp_newvscpevent.md)  
 [vscphlp_deleteVSCPevent](vscphlp_deletevscpevent.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

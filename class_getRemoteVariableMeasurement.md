@@ -1,8 +1,6 @@
 
-{% method %}
-## getRemoteVariableMeasurement
 
-```c
+```clike
 int getRemoteVariableMeasurement( const wxString& name, 
                                     double *pvalue,
                                     uint8_t *punit,
@@ -38,6 +36,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Get remote variable value for measurement variable. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

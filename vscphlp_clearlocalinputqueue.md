@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_clearLocalInputQueue
 
-```c
+```clike
 int vscphlp_clearLocalInputQueue( long handle )
 ```
 
@@ -21,15 +19,15 @@ rVSCP_ERROR_SUCCESS if the VSCP daemon cleared the queue and VSCP_ERROR_ERROR if
 ### Description
 Clear the local communication input queue. This is the same things that is done when setting **bClear** for [vscphlp_checkReply](vscphlp_checkreply)
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS == vscphlp_clearLocalInputQueue( handle1 ) ) {
     printf("Our local input queue cleared.\n");   
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "command: pyvscphlp_clearLocalInputQueue"
@@ -44,6 +42,6 @@ if VSCP_ERROR_SUCCESS != rv :
 [vscphlp_checkReply](vscphlp_checkreply)  
 [vscphlp_doCommand](vscphlp_docommand.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

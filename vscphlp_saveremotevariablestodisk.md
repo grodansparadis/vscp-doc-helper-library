@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_saveRemoteVariablesToDisk
 
-```c
+```clike
 int vscphlp_saveRemoteVariablesToDisk( long handle ) 
 ```
 
@@ -17,9 +15,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Saves variables marked as persistent to disk. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Save variables marked as persistent
 if ( VSCP_ERROR_SUCCESS == 
        ( rv = vscphlp_saveRemoteVariablesToDisk( handle1 ) ) )  {
@@ -30,6 +28,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

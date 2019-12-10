@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getRemoteVariableVSCPTimestamp
 
-```c
+```clike
 int vscphlp_getRemoteVariableVSCPTimestamp( long handle, 
                         const char *pName, 
                         unsigned long *vscp_timestamp )
@@ -25,15 +23,15 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get variable value from VSCP timestamp variable.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 TODO
 ```
 
 ### See Also
 [vscphlp_setRemoteVariableVSCPTimestamp](vscphlp_setremotevariablevscptimestamp.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

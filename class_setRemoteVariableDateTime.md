@@ -1,8 +1,7 @@
 
-{% method %}
-## setRemoteVariableDateTime
 
-```c
+
+```clike
 int setRemoteVariableDateTime( const wxString& name, 
                                 wxDateTime& datetime )
 ```
@@ -21,6 +20,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set remote variable value from VSCP datetime. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

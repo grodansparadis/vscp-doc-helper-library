@@ -23,4 +23,4 @@ if (0 == h1 ):
 ```
 
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

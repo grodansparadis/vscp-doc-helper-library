@@ -1,8 +1,7 @@
 
-{% method %}
-## tableGet
 
-```c
+
+```clike
 int vscphlp_tableGet( const unsigned char *pName, 
                 const char *pFrom, 
                 const char *pTo,
@@ -44,6 +43,6 @@ Get data from a named table in a range to-from. One can fetch all columns of the
 ### See Also
 [vscphlp_tableGetRaw](vscphlp_tablegetraw.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

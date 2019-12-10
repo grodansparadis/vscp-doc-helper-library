@@ -1,8 +1,7 @@
 
-{% method %}
-## tableGetMax
 
-```c
+
+```clike
 int vscphlp_tableGetMax( const unsigned char *pName, 
                     const char *pFrom, 
                     const char *pTo,
@@ -33,6 +32,6 @@ Get the maximum of all values for an interval in a named table.
 ### See Also
 [vscphlp_tableGetMax](vscphlp_tablegetmax.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

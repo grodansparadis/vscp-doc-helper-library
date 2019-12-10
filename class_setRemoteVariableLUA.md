@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableLUA
 
-```c
+
+
+```clike
 int setRemoteVariableLUA( const wxString& name, wxString& lua )
 ```
 
@@ -20,6 +20,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set remote variable value from BASE64 encoded LUA data. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

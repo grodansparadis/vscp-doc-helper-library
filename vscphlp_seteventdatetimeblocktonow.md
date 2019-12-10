@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_setEventDateTimeBlockToNow
 
-```c
+```clike
 int vscphlp_setEventDateTimeBlockToNow( vscpEvent *pEvent )
 ```
 
@@ -17,14 +15,14 @@ VSCP_ERROR_SUCCESS is returned on success.
 ### Description
 Get date/time block for an event. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscpEvent *pEvent;
 vscphlp_setEventDateTimeBlockToNow( pEvent );
 ```
 [vscphlp_setEventExDateTimeBlockToNow](vscphlp_seteventexdatetimeblocktonow.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

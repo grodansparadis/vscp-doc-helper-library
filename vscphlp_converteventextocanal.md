@@ -1,8 +1,8 @@
-vscphlp_convertEventExToCanal
-{% method %}
+
+
 ## vscphlp_xxx
 
-```c
+```clike
 bool vscphlp_convertEventExToCanal( canalMsg *pcanalMsg, 
                                        const vscpEventEx *pvscpEvent )
 ```
@@ -22,9 +22,9 @@ VSCP_ERROR_SUCCESS on succes.
 ### Description
 Convert VSCP event ex to CANAL message. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS == vscphlp_convertEventExToCanal( &canalMsg, &ex5 ) ) {
     printf( "OK vscphlp_convertEventExToCanal id=%08X\n", canalMsg.id );
 }
@@ -36,6 +36,6 @@ else {
 ### See Also
 [vscphlp_convertCanalToEvent](vscphlp_convertcanaltoevent.md)   [vscphlp_convertCanalToEventEx](vscphlp_convertcanaltoeventex.md)    [vscphlp_convertEventToCanal](vscphlp_converteventtocanal.md)  
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

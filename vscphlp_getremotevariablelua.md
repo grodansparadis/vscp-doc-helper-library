@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getRemoteVariableLUA
 
-```c
+```clike
 vscphlp_getRemoteVariableLUA( long handle, 
                             const char *pName, 
                             char *pValue, 
@@ -29,13 +27,13 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get variable value from LUA script variable. The returned value is BASE64 encoded. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 TODO
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 TODO
@@ -44,6 +42,6 @@ TODO
 ### See Also
 [vscphlp_setRemoteVariableLUA](vscphlp_setremotevariablelua.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

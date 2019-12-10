@@ -1,8 +1,6 @@
 
-{% method %}
-## getRemoteVariableLUA
 
-```c
+```clike
 int getRemoteVariableLUA( const wxString& name, wxString& lua )
 ```
 
@@ -20,6 +18,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get remote variable value from a base64 ENCODED LUA variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

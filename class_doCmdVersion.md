@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdVersion
 
-```c
+```clike
 int doCmdVersion(uint8_t *pMajorVer,
                      uint8_t *pMinorVer,
                      uint8_t *pSubMinorVer)
@@ -25,6 +23,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get the interface version from the remote VSCP server. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

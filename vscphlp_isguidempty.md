@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_isGUIDEmpty
 
-```c
+```clike
 int vscphlp_isGUIDEmpty( unsigned char *pGUID )
 ```
 
@@ -17,9 +15,9 @@ True (non-zero) if GUID are empty.
 ### Description
 Check if GUID is empty (all nulls). 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 unsigned char emptyGUID[16];
 memset( emptyGUID,0, 16 );
 if ( vscphlp_isGUIDEmpty( emptyGUID ) ) {
@@ -37,6 +35,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

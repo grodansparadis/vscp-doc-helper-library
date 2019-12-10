@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableLong
 
-```c
+
+
+```clike
 int setRemoteVariableLong( const wxString& name, 
                             long value)
 ```
@@ -21,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set variable value for long remote variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_doCmdShutDown
 
-```c
+```clike
 int vscphlp_doCmdShutDown( long handle )
 ```
 
@@ -21,9 +19,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Shut down the daemon. Needless to say this is a privileged command on the server side. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Shut down the server
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_doCmdShutDown( handle2 ) ) ) {
     printf( "Command success: vscphlp_doCmdShutDownon channel 2\n" );
@@ -35,7 +33,7 @@ else {
 
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "Shut down server"
@@ -45,6 +43,6 @@ if VSCP_ERROR_SUCCESS != rv :
     raise ValueError('Command error: pyvscphlp_serverShutDown  Error code=%d' % rv )
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

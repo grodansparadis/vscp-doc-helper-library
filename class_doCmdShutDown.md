@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdShutDown
 
-```c
+```clike
 int doCmdShutDown(void)
 ```
 
@@ -16,6 +14,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Shutdown the remote VSCP server. Needless to say you need high privileges on the server to perform this command. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

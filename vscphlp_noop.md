@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_noop
 
-```c
+```clike
 int vscphlp_noop( long handle )
 ```
 
@@ -21,9 +19,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 This is a command that can be used for test purposes. It does not do anything else then to send a command over the interfaces and check the result. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // NOOP on handle1
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_noop( handle1 ) ) ) {
     printf( "Command success: vscphlp_noop on channel 1\n" );
@@ -33,7 +31,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "command: noop"
@@ -44,6 +42,6 @@ if VSCP_ERROR_SUCCESS != rv :
 ```
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

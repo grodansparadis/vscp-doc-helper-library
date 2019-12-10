@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_isSameGUID
 
-```c
+```clike
 int vscphlp_isSameGUID( const unsigned char *pGUID1, 
                         const unsigned char *pGUID2 )
 ```
@@ -22,9 +20,9 @@ True (non-zero) if GUIDs are the same.
 ### Description
 Check if two GUID's is equal to each other. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( vscphlp_isSameGUID( emptyGUID, GUID2) ) {
     printf( "\aError: vscphlp_isSameGUID\n");
 }
@@ -33,6 +31,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

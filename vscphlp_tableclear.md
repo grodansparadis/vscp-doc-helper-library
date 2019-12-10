@@ -1,8 +1,6 @@
 
-{% method %}
-## tableClear
 
-```c
+```clike
 int vscphlp_tableClear( const unsigned char *pName, 
                 const char *pFrom, 
                 const char *pTo )
@@ -25,6 +23,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Remove all records in an interval in a named table. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

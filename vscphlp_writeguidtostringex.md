@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_writeGuidToStringEx
 
-```c
+```clike
 int vscphlp_writeGuidToStringEc( const vscpEventEx *pEvent, 
                                     char *pStr, 
                                     size_t len )
@@ -25,10 +23,10 @@ VSCP_ERROR_SUCCESS on success
 ### Description
 Write GUID from VSCP event to string. 
 
-**Example** {% sample lang="c" %}
+#### C example
 mmmm
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS == vscphlp_getGuidFromStringEx( &ex3, strguid ) ) {
     vscphlp_writeGuidToStringEx( &ex3, strguid2, sizeof( strguid2 )-1 );
     printf( "GUID=%s\n", strguid2 );
@@ -43,6 +41,6 @@ else {
 ### See Also
 [vscphlp_writeGuidToString](vscphlp_writeguidtostring.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

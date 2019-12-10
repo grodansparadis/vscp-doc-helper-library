@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdOpen
 
-```c
+```clike
 int doCmdOpen(const wxString& strHostname,
                     const wxString& strUsername,
                     const wxString& strPassword)
@@ -29,6 +27,6 @@ Open communication interface.
 ### See Also
 [doCmdOpen](class_doCmdOpen.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

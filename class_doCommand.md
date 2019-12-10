@@ -1,8 +1,6 @@
 
-{% method %}
-## doCommand
 
-```c
+```clike
 int doCommand(wxString& cmd)
 ```
 
@@ -18,6 +16,6 @@ Returns VSCP_ERROR_SUCCESS if the command could be sent successfully and a posit
 ### Description
 Send a command to the remote VSCP server. Allows to send any command. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

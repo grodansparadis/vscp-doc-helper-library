@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getVSCPheadFromCANALid
 
-```c
+```clike
 unsigned unsigned char 
 vscphlp_getVSCPheadFromCANALid( const unsigned long id ))
 ```
@@ -18,9 +16,9 @@ VSCP head byte.
 ### Description
 Get the VSCP head from a CANAL message id. The VSCP head is defined as shown in the [vscp.h](https://github.com/grodansparadis/vscp_software/blob/master/src/vscp/common/vscp.h) header file. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 unsigned char vscphead;
 unsigned long canalid = 0x0c0a0601;
 vscphead = vscphlp_getVSCPheadFromCANALid( canalid );
@@ -32,6 +30,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

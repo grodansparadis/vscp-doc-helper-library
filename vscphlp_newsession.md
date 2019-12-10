@@ -1,7 +1,7 @@
-{% method %}
-## vscphlp_newSession
 
-```c
+
+
+```clike
 long vscphlp_newSession( void );
 ```
 
@@ -15,11 +15,13 @@ A session handle or zero if a session could not be created.
 
 Opens a new communication session. This is the first method that should be called before TCP/IP communication can be established. 
 
-{% sample lang="c" %}
+<!-- tabs:start -->
+
+#### ** C example **
 
 Initialize the library using c.
 
-```c
+```clike
 handle1 = vscphlp_newSession();
 if (0 != handle1 ) {
     printf( "Handle for channel 1 OK %d\n", handle1 );
@@ -28,7 +30,8 @@ else {
     printf("\aError: Failed to get handle for channel 1\n");
 }
 ```
-{% sample lang="python" %}
+
+#### ** Python example **
 
 Open a new session using Python.
 
@@ -39,16 +42,11 @@ if (0 == h1 ):
     raise ValueError('Unable to open vscphelp library session')
 ```
 
-{% common %}
-Common sample here
-
-```bash
-$ My first method
-```
+<!-- tabs:end -->
 
 ### See also
 [vscphlp_closeSession](vscphlp_closesession.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

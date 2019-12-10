@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getRemoteVariableInt
 
-```c
+```clike
 int vscphlp_getRemoteVariableInt( long handle, const 
                                     char *pName, 
                                     int *value ) 
@@ -25,9 +23,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
  Get variable value from integer variable.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Read a value from a int variable
 int intValue;
 if ( VSCP_ERROR_SUCCESS == 
@@ -44,6 +42,6 @@ else {
 ### See Also
 [vscphlp_setRemoteVariableInt](vscphlp_setremotevariableint.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

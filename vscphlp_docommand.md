@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_doCommand
 
-```c
+```clike
 int vscphlp_doCommand( long handle, 
                         const char *cmd )
 ```
@@ -26,15 +24,15 @@ VSCP_ERROR_SUCCESS if the VSCP daemon respond with +OK after it has received the
 ### Description
 Send a command over the communication link. The command should have “\r\n” to it's end. The response from the server will be checked for +OK. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS == vscphlp_doCommand( handle1, "NOOP\r\n" ) ) {
     printf("Command sent successfully!\n");   
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "command: doCommand"
@@ -49,6 +47,6 @@ if VSCP_ERROR_SUCCESS != rv :
 [vscphlp_checkReply](vscphlp_checkreply.md)  
 [vscphlp_clearLocalInputQueue](vscphlp_clearlocalinputqueue.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

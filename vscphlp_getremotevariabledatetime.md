@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getRemoteVariableDateTime
 
-```c
+```clike
 vscphlp_getRemoteVariableDateTime( long handle, 
                                 const char *pName, 
                                 char *pValue, 
@@ -30,15 +28,15 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get variable value from datetime variable. The returned value is on ISO form “YYYY-MM-DDTHH:MM:SS” 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 TODO
 ```
 
 ### See Also
 [vscphlp_setRemoteVariableDateTime](vscphlp_setremotevariabledatetime.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

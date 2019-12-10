@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getDriverInfo
 
-```c
+```clike
 const char * vscphlp_getDriverInfo( long handle, 
                                     char *pInfo, 
                                     size_t len )
@@ -35,9 +33,9 @@ A touple consisting of the the return vale and the driver info string is returne
 ### Description
 Get driver information. A buffer with size enough to hold the XML data must be supplied. For Python 32000 byte is used. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Get driver info
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_getDriverInfo( handle2, buf, sizeof(buf) ) ) ) {
     printf( "Command success: vscphlp_getDriverInfo on channel 2\n" );
@@ -48,7 +46,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "Get driver info string"
@@ -59,9 +57,9 @@ if VSCP_ERROR_SUCCESS != rv :
 print "Driver info string = %s" % strdriverinfo
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')
 
 
 

@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdQuitReceiveLoop
 
-```c
+```clike
 int doCmdQuitReceiveLoop(void)
 ```
 
@@ -18,6 +16,6 @@ Quit the receive loop.
 ### See Also
 [doCmdEnterReceiveLoop](class_doCmdEnterReceiveLoop.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

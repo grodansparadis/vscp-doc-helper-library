@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_convertCanalToEvent
 
-```c
+```clike
 int vscphlp_convertCanalToEvent( vscpEvent *pvscpEvent,
                                     const canalMsg *pcanalMsg,
                                     unsigned char *pGUID )
@@ -25,9 +23,9 @@ VSCP_ERROR_SUCCESS on success.
 ### Description
 Convert CANAL message to VSCP event. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 canalMsg canalMsg;
 canalMsg.id = 0x0c0a0601;
 canalMsg.sizeData = 3;
@@ -48,6 +46,6 @@ else {
 ### See Also
 [vscphlp_convertCanalToEventEx](vscphlp_convertcanaltoeventex.md)  [vscphlp_convertEventToCanal](vscphlp_converteventtocanal.md)  [vscphlp_convertEventExToCanal](vscphlp_converteventextocanal.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_calcCRC4GUIDArray
 
-```c
+```clike
 unsigned char vscphlp_calcCRC4GUIDArray( unsigned char *pguid )
 ```
 
@@ -18,9 +16,9 @@ Array of sixteen bytes containing GUID on MSB→LSB order.
 ### Description
 Calculate 8-bit crc for a GUID array. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Calculate CRC for GID array
 unsigned char GUID2[16];
 memset( GUID2, 0, 16 );
@@ -31,6 +29,6 @@ unsigned char crc8 = vscphlp_calcCRC4GUIDArray( GUID2 );
 printf("CRC = %02X\n", crc8 );
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

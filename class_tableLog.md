@@ -1,8 +1,7 @@
 
-{% method %}
-## tableLog
 
-```c
+
+```clike
 int tableLog( const wxString& tblName, 
                 double value, 
                 wxDateTime *pdt = NULL )
@@ -26,6 +25,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Log a value, date/time pair to a table. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

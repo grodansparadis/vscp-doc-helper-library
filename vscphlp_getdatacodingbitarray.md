@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getDataCodingBitArray
 
-```c
+```clike
 unsigned long long 
 vscphlp_getDataCodingBitArray( const unsigned char *pNorm,
                                 int size)
@@ -23,9 +21,9 @@ A 64-bit unsigned integer is returned. The bits in the measurement data array ar
 ### Description
 Get measurement data that is coed as bits as a unsigned 64-bit value. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 unsigned char bitarry[3];
 bitarry[0] = VSCP_DATACODING_BIT; // Data cding byte. Default unit, sensoridx=0
 bitarry[1] = 0x55;
@@ -33,6 +31,6 @@ bitarry[2] = 0xAA;
 unsigned long long bitarray64 = vscphlp_getDataCodingBitArray( bitarry, sizeof( bitarry ) )
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

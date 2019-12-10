@@ -180,4 +180,4 @@ As you can see a connection is made, the noop command is executed and the connec
 
 
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

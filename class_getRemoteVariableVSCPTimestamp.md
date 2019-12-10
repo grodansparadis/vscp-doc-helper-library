@@ -1,8 +1,7 @@
 
-{% method %}
-## getRemoteVariableVSCPTimestamp
 
-```c
+
+```clike
 int getRemoteVariableVSCPTimestamp( const wxString& name,                              
                                 uint32_t *vscp_timestamp)
 ```
@@ -22,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 Get remote variable value from VSCP timestamp variable. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

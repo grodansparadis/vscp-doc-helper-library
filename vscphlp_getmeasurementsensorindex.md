@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getMeasurementSensorIndex
 
-```c
+```clike
 int vscphlp_getMeasurementSenzorIndex( const vscpEvent *pEvent )
 ```
 
@@ -18,6 +16,6 @@ Sensor index is returned as 0-7 for a Level I event and as 0-255 for a level II 
 Get the sensor index for a measurement event. Some events does not have a sensor index defined and for them zero is always returned. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

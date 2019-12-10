@@ -1,8 +1,8 @@
 
-{% method %}
-## setResponseTimeout
 
-```c
+
+
+```clike
 void setResponseTimeout(uint32_t to)
 ```
 
@@ -19,6 +19,6 @@ Nothing
 Set response timeout value in milliseconds. Default is 1000 milliseconds. 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

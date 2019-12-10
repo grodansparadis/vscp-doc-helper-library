@@ -1,8 +1,6 @@
 
-{% method %}
-## checkReturnValue
 
-```c
+```clike
 bool checkReturnValue(bool bClear = false)
 ```
 
@@ -17,6 +15,6 @@ True is returned if a positive response (+OK) s received from the remote VSCP se
 ### Description
 Check the response from the remote VSCP server and look for an error or a correctly carried out command. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

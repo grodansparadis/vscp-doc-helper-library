@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_convertVSCPfromEx
 
-```c
+```clike
 int vscphlp_convertVSCPfromEx( vscpEvent *pEvent, 
                     const vscpEventEx *pEventEx )
 ```
@@ -21,9 +19,9 @@ VSCP_ERROR_SUCCESS on success.
 ### Description
 Convert VSCP ex. event form to standard form.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS != vscphlp_convertVSCPfromEx( pEvent, &ex4 ) ) {
     printf( "\aError: vscphlp_convertVSCPfromEx\n");
 }
@@ -32,6 +30,6 @@ if ( VSCP_ERROR_SUCCESS != vscphlp_convertVSCPfromEx( pEvent, &ex4 ) ) {
 ### See Also
 [vscphlp_convertVSCPtoEx](vscphlp_convertvscptoex.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

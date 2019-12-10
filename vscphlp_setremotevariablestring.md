@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_setRemoteVariableString
 
-```c
+```clike
 int vscphlp_setRemoteVariableString( long handle, 
                                     const char *pName, 
                                     char *pValue ) 
@@ -25,9 +23,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Write a value to a string variable. If the variable does not exist it will be created.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Write a value to a string variable
 if ( VSCP_ERROR_SUCCESS == 
         (rv = vscphlp_setRemoteVariableString( handle1, 
@@ -42,6 +40,6 @@ else {
 ## See Also
 [vscphlp_getRemoteVariableString](vscphlp_getremotevariablestring.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

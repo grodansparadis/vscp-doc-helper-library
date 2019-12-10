@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_setRemoteVariableMeasurement
 
-```c
+```clike
 int vscphlp_setRemoteVariableMeasurement( long handle, 
                                         const char *pName, 
                                         double value,
@@ -41,9 +39,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Set variable value, unit sensor index, zone and sub zone for a measurement variable.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Write a value to an measurement variable
 if ( VSCP_ERROR_SUCCESS == 
        ( rv = vscphlp_setRemoteVariableMeasurement( handle1, "test_measurement_variable", "138,0,23" )  ) ) {
@@ -57,6 +55,6 @@ else {
 ### See Also
 [vscphlp_getRemoteVariableMeasurement](vscphlp_getremotevariablemeasurement.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_replaceBackslash
 
-```c
+```clike
 int vscphlp_replaceBackslash( const char *pStr )
 ```
 
@@ -22,9 +20,9 @@ Pointer to null terminated string to convert.
 Replace all backslashes (“\”) in a string with forward slashes (“/”). 
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')
 
 
 

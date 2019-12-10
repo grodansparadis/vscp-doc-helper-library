@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_copyVSCPFilter
 
-```c
+```clike
 void vscphlp_copyVSCPFilter( vscpEventFilter *pToFilter, 
                     const vscpEventFilter *pFromFilter )
 ```
@@ -22,12 +20,12 @@ None
 ### Description
 Copy VSCP filter from one to another. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscphlp_clearVSCPFilter( pFilter )
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

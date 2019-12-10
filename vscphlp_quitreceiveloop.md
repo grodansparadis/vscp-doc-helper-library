@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_quitReceiveLoop
 
-```c
+```clike
 int vscphlp_quitReceiveLoop( long handle )
 ```
 
@@ -21,9 +19,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Quit the receive loop. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Quit receiveloop
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_quitReceiveLoop( handle2 ) ) ) {
     printf( "Command success: vscphlp_quitReceiveLoop on channel 2\n" );
@@ -33,7 +31,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 mmm
 
 ```python
@@ -48,6 +46,6 @@ if VSCP_ERROR_SUCCESS == pyvscphlp_quitReceiveLoop(h1):
 [vscphlp_blockingReceiveEvent](vscphlp_blockingreceiveevent.md)  
 [vscphlp_blockingReceiveEventEx](vscphlp_blockingreceiveeventex.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

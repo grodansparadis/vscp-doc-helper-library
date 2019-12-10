@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableVSCPTimestamp
 
-```c
+
+
+```clike
 int setRemoteVariableVSCPTimestamp( const wxString& name, 
                                     uint32_t vscp_timestamp)
 ```
@@ -21,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set remote variable value from VSCP timestamp. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

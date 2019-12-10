@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_writeVscpDataWithSizeToString
 
-```c
+```clike
 int vscphlp_writeVscpDataWithSizeToString( const unsigned char *pdata,
                                               const unsigned short. 
                                               char *pstr, 
@@ -38,23 +36,5 @@ VSCP_ERROR_SUCCESS is returned on success.
 ### Description
 Write VSCP data in readable form to a possibly multi line string from a data array with size.
 
-**Example** {% sample lang="c" %}
-mmmm
 
-```c
-xxx
-```
-
-{% sample lang="python" %}
-mmm
-
-```python
-xxx
-```
-
-### See Also
-[xxx](xxx.md)
-
-{% endmethod %}
-
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

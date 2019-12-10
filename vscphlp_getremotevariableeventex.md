@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getRemoteVariableEventEx
 
-```c
+```clike
 int vscphlp_getRemoteVariableEventEx( long handle, 
                                 const char *pName,
                                 vscpEventEx *pEvent ) 
@@ -25,9 +23,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get variable value from event variable.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Read a value from a event variable 
 vscpEventEx ex1;
 if ( VSCP_ERROR_SUCCESS == 
@@ -53,6 +51,6 @@ else {
 ### See Also
 [vscphlp_setRemoteVariableEventEx](vscphlp_setremotevariableeventex.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

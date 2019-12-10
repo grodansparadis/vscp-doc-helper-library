@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_convertEventToXML
 
-```c
+```clike
 int vscphlp_convertEventToXML( vscpEvent *pEvent, 
                                 char *pBuffer, 
                                 size_t len )
@@ -29,6 +27,6 @@ Write VSCP event on XML format to string. Format is specified in [vscp.h](https:
 ### See Also
 [vscphlp_convertEventExToXML](vscphlp_converteventextoxml.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

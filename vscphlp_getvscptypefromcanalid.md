@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getVSCPtypeFromCANALid
 
-```c
+```clike
 unsigned short 
 vscphlp_getVSCPtypeFromCANANALid( const unsigned long id )
 ```
@@ -18,9 +16,9 @@ VSCP type.
 ### Description
 Get the VSCP type from a a CANAL message id (CAN id). 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 unsigned long cananalid = 0x0c0a0601;
  
 unsigned short canal_vscptype = vscphlp_getVSCPtypeFromCANALid( canalid );
@@ -32,6 +30,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

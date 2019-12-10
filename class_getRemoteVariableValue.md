@@ -1,8 +1,7 @@
 
-{% method %}
-## getRemoteVariableValue
 
-```c
+
+```clike
 int getRemoteVariableValue( const wxString& name, wxString& strValue )
 ```
 
@@ -20,6 +19,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get value on string form for a remote variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

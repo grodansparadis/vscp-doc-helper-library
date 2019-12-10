@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_blockingReceiveEvent
 
-```c
+```clike
 int vscphlp_blockingReceiveEvent( long handle, 
                                     vscpEvent *Event, 
                                     unsigned long timeout )
@@ -30,10 +28,9 @@ Blocking receive one VSCP event from the remote VSCP server if there is one avai
 
 For Python use of [pyvscphlp_receiveEventEx](pyvscphlp_receiveeventex.md) may be simpler as there id no dynamically allocated data to take care off. 
 
-**Example** {% sample lang="c" %}
-mmmm
+#### C example
 
-```c
+```clike
 // Enter receiveloop
 pEvent = new vscpEvent;
 pEvent->pdata = NULL;   // A must for a successful delete
@@ -54,8 +51,8 @@ if ( VSCP_ERROR_SUCCESS == vscphlp_blockingReceiveEvent( handle2, pEvent ) ) {
 vscphlp_deleteVSCPevent( pEvent );
 ```
 
-{% sample lang="python" %}
-mmm
+#### Python example
+
 
 ```python
 print "Enter receive loop. Will lock channel on just receiving events"
@@ -89,6 +86,6 @@ else:
 [vscphlp_quitReceiveLoop](vscphlp_quitreceiveloop.md)   
 [vscphlp_blockingReceiveEventEx](vscphlp_blockingreceiveeventex.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

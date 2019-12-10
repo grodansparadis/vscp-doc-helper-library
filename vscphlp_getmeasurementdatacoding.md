@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getMeasurementDataCoding
 
-```c
+```clike
 unsigned char vscphlp_getMeasurementDataCoding( const vscpEvent *pEvent )
 ```
 
@@ -18,9 +16,9 @@ Data coding byte.
 ### Description
 Get the [measurement data coding byte](https://grodansparadis.gitbooks.io/the-vscp-specification/vscp_data_coding.html) from an event. The measurement data coding byte specifies how the data in the event should be interpreted. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 pEvent = new vscpEvent;
 pEvent->head = 0;
 pEvent->vscp_class = 10;
@@ -43,6 +41,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

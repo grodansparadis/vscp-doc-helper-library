@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_makeLevel2FloatMeasurementEvent
 
-```c
+```clike
 int vscphlp_makeLevel2FloatMeasurementEvent( vscpEvent *pEvent, 
                                     uint16_t type,
                                     double value,
@@ -44,6 +42,6 @@ Construct a Level II floating point measurement event from supplied data. **Note
 ### See Also
 [vscphlp_makeLevel2StringMeasurementEvent](vscphlp_makelevel2stringmeasurementevent.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

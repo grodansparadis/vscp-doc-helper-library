@@ -1,8 +1,7 @@
 
-{% method %}
-## tableLog
 
-```c
+
+```clike
 int vscphlp_tableLog( const unsigned char *pName, 
                 double value, 
                 char *pdt )
@@ -29,6 +28,6 @@ Log a value, date/time pair to a table.
 ### See Also
 [vscphlp_tableLogSQL](vscphlp_tablelogsql.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,7 +1,7 @@
-{% method %}
+
 ## vscphlp_xxx
 
-```c
+```clike
 long tttt(void)
 ```
 
@@ -18,14 +18,14 @@ rrrr
 ### Description
 bbbbbbbbbbbbbbbbbbbbbbbb
 
-**Example** {% sample lang="c" %}
+#### C example
 mmmmmmmmmmmmmmmmmmmmmm
 
-```c
+```clike
 xxxxxxxxxxxxxxxxxxx
 ```
 
-{% sample lang="python" %}
+#### Python example
 mmmmmmmmmm
 
 ```python
@@ -35,7 +35,7 @@ xxxxxxxxxxxxx
 ### See Also
 [xxx](xxx.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')
 

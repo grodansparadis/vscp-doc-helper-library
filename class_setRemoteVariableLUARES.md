@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableLUARES
 
-```c
+
+
+```clike
 int setRemoteVariableLUARES( const wxString& name,  
                             wxString& luares )
 ```
@@ -21,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set remote variable value from BASE64 encoded LUARES data. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getVSCPMeasurementFloat64AsString
 
-```c
+```clike
 int vscphlp_getVSCPMeasurementFloat64AsString(const vscpEvent *pEvent, 
                                     char *pStrResult, 
                                     size_t len )
@@ -25,9 +23,9 @@ VSCP_ERROR_SUCCESS is returned on success.
 ### Description
 This method displays data stored in 32-bit floating point form ([IEEE 754](https://en.wikipedia.org/wiki/IEEE_floating_point)) as a string 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscpEvent *pEventfloat = new vscpEvent;
 pEventfloat->head = 0;
 pEventfloat->vscp_class = 10;
@@ -60,6 +58,6 @@ else {
 vscphlp_deleteVSCPevent( pEventfloat );
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

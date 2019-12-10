@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getVSCPnicknameFromCANALid
 
-```c
+```clike
 unsigned short 
 vscphlp_getVSCPnicknameFromCANALid( unsigned long id )
 ```
@@ -18,9 +16,9 @@ VSCP 8-bit nickname.
 ### Description
 Get the VSCP 8-bit nickname from a a CANAL message id. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 unsigned long canalid = 0x0c0a0601;
 unsigned char canal_nickname = vscphlp_getVSCPnicknameFromCANALid( canalid );
 if ( 1 == canal_nickname ) {
@@ -31,6 +29,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

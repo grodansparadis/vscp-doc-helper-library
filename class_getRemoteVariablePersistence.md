@@ -1,8 +1,8 @@
 
-{% method %}
-## getRemoteVariablePersistence
 
-```c
+
+
+```clike
 int getRemoteVariablePersistence( const wxString& name, 
                                     bool *pPersistent )
 ```
@@ -21,6 +21,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get persistence for a remote variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

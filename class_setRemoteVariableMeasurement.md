@@ -1,8 +1,8 @@
 
-{% method %}
-## setRemoteVariableMeasurement
 
-```c
+
+
+```clike
 int setRemoteVariableMeasurement( const wxString& name, 
                                     double value,
                                     uint8_t unit = 0,
@@ -37,6 +37,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Set remote measurement variable value. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

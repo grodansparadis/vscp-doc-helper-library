@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_makeFloatMeasurementEvent
 
-```c
+```clike
 int vscphlp_makeFloatMeasurementEvent( vscpEvent *pEvent, 
                                 float value,
                                 unsigned char unit,
@@ -32,12 +30,12 @@ VSCP_ERROR_SUCCESS is returned on success.
 ### Description
 Make a floating point ()32-bit) coded event from floating point data.
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 Example will be added. TODO
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

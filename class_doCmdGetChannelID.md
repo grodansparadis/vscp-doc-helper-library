@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdGetChannelID
 
-```c
+```clike
 int doCmdGetChannelID(uint32_t *pChannelID)
 ```
 
@@ -17,6 +15,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get Channel ID for the remote VSCP server interface channel. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

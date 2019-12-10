@@ -15,4 +15,4 @@ File | License
 [guid.h](https://github.com/grodansparadis/vscp/blob/master/src/vscp/common/guid.h) / [guid.cpp](https://github.com/grodansparadis/vscp/blob/master/src/vscp/common/guid.cpp) | MIT License
 [sockettcp.h](https://github.com/grodansparadis/vscp/blob/master/src/common/sockettcp.h) / [sockkettcp.h](https://github.com/grodansparadis/vscp/blob/master/src/common/sockettcp.h) | MIT License
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

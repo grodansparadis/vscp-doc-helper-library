@@ -1,8 +1,6 @@
 
-{% method %}
-## doCmdReceiveEx
 
-```c
+```clike
 int doCmdReceiveEx(vscpEventEx *pEventEx)
 ```
 
@@ -17,6 +15,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Receive one event ex if one is available.
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

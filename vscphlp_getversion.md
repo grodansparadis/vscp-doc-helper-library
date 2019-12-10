@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_getVersion
 
-```c
+```clike
 unsigned long vscphlp_getVersion( long handle, 
                                     unsigned char *pMajorVer,
                                     unsigned char *pMinorVer,
@@ -36,9 +34,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Get the version of the remote VSCP server. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Get server version
 unsigned char v1,v2,v3;
 if ( VSCP_ERROR_SUCCESS == (rv = vscphlp_getVersion( handle2, &v1, &v2, &v3 ) ) ) {
@@ -50,7 +48,7 @@ else {
 }
 ```
 
-{% sample lang="python" %}
+#### Python example
 
 ```python
 print "command: Get sever version"
@@ -62,6 +60,6 @@ print "Server version = %d.%d.%d" % (v1.value,v2.value,v3.value)
 ```
 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

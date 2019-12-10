@@ -1,8 +1,6 @@
 
-{% method %}
-## getRemoteVariableOwner
 
-```c
+```clike
 int getRemoteVariableOwner( const wxString& name, 
                             uint32_t *pOwner )
 ```
@@ -21,6 +19,6 @@ CANAL_ERROR_SUCCESS on success or an error code on failure.
 ### Description
 Get owner for a remote variable. 
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

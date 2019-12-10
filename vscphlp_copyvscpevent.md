@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_copyVSCPEvent
 
-```c
+```clike
 int vscphlp_copyVSCPEvent( vscpEvent *pEventTo, 
                               const vscpEvent *pEventFrom )
 ```
@@ -22,10 +20,10 @@ VSCP_ERROR_SUCCESS on success.
 ### Description
 Copy VSCP event to other event. 
 
-**Example** {% sample lang="c" %}
+#### C example
 mmmm
 
-```c
+```clike
 vscpEvent *pEventFrom = new vscpEvent;
 vscpEvent *pEventTo = new vscpEvent;
 pEventFrom->head = 0;
@@ -51,6 +49,6 @@ vscphlp_deleteVSCPevent( pEventFrom );
 vscphlp_deleteVSCPevent( pEventTo );
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

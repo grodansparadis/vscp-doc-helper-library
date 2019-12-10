@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_setRemoteVariableDouble
 
-```c
+```clike
 int vscphlp_setRemoteVariableDouble( long handle, 
                                     const char *pName, 
                                     double value ) 
@@ -25,9 +23,9 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 ### Description
 Set variable value from double variable. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 // Write a value to an float variable
 if ( VSCP_ERROR_SUCCESS == 
         ( rv = vscphlp_setRemoteVariableDouble( handle1, "test_float_variable", 1.2345001 )  ) ) {
@@ -41,6 +39,6 @@ else {
 ### See Also
 [vscphlp_getRemoteVariableDouble](vscphlp_getremotevariabledouble.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

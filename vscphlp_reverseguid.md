@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_reverseGUID
 
-```c
+```clike
 int vscphlp_reverseGUID(unsigned char *pGUID)
 ```
 
@@ -22,9 +20,9 @@ Return VSCP_ERROR_SUCCESS on success.
 ### Description
 Reverse a GUID array. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 vscphlp_writeGuidArrayToString( GUID2, strguid2, sizeof( strguid2 )-1 );
 printf( "GUID before reverse = %s\n", strguid2 );
 if ( VSCP_ERROR_SUCCESS == vscphlp_reverseGUID( GUID2 ) ) {
@@ -36,6 +34,6 @@ else {
 }
 ```
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')

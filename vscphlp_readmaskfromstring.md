@@ -1,8 +1,6 @@
 
-{% method %}
-## vscphlp_readMaskFromString
 
-```c
+```clike
 int vscphlp_readMaskFromString( vscpEventFilter *pFilter, 
                                 const char * strMask )
 ```
@@ -39,9 +37,9 @@ VSCP_ERROR_SUCCESS on success.
 ### Description
 Read a mask from a string. If strMask is an empty string elements in mask will be set to zero. 
 
-**Example** {% sample lang="c" %}
+#### C example
 
-```c
+```clike
 if ( VSCP_ERROR_SUCCESS != vscphlp_readMaskFromString( &filter, 
                 "1,0x0000,0x0006,ff:ff:ff:ff:ff:ff:ff:01:00:00:00:00:00:00:00:00" ) ) {
     printf( "\aError: vscphlp_readMaskFromString\n");   
@@ -51,6 +49,6 @@ if ( VSCP_ERROR_SUCCESS != vscphlp_readMaskFromString( &filter,
 #### See Also
 * [vscphlp_writeMaskToString](vscphlp_writemasktostring.md)
 
-{% endmethod %}
 
-{% include "./bottom_copyright.md" %}
+
+[filename](./bottom_copyright.md ':include')
