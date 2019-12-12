@@ -1,6 +1,6 @@
 # VSCP Helper library API - Variable handling 
 
-Most functionality for handling variables on the VSCP daemon is supported by the library. The API is described here. Variables and there use is discussed [here](http://www.vscp.org/docs/vscpd/doku.php?id=decision_matrix_varaibles)
+Most functionality for handling variables on the VSCP daemon is supported by the library. The API is described here. Variables and there use is discussed [here](https://docs.vscp.org/vscpd/latest/#/decision_matrix)
 
 **note** From version 2 names has been changed to **vscphlp_xxxxRemoteVariable** instead of **vscphlp_xxxxVariable**
 
@@ -18,7 +18,7 @@ Create a variable of a specific type. All the write methods below also create a 
 
 #### handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #### pName
 
@@ -26,7 +26,7 @@ Pointer to a string containing the name of the variable. This name should have a
 
 #### pType
 
-Pointer to the type of the variable either as its symbolic name "string", "long" etc or to it's numerical code "1", "6".  Note that the numerical types are also in string form. The different variable types is described [here](http://www.vscp.org/docs/vscpd/doku.php?id=vscp_daemon_variable_types).
+Pointer to the type of the variable either as its symbolic name "string", "long" etc or to it's numerical code "1", "6".  Note that the numerical types are also in string form. The different variable types is described [here](https://docs.vscp.org/vscpd/13.1/#/./remote_variables?id=variable_types).
 
 ####  pValue
 
@@ -78,7 +78,7 @@ Delete a remote variable.
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -109,7 +109,7 @@ Saves variables marked as persistent to disk.
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #### Example
 
@@ -134,7 +134,7 @@ get value of string variable.
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -184,7 +184,7 @@ Write a value to a string variable. If the variable does not exist it will be cr
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -229,7 +229,7 @@ Get variable value from boolean variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -271,7 +271,7 @@ Get variable value from boolean variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -310,7 +310,7 @@ Get variable value from integer variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -351,7 +351,7 @@ Get variable value from integer variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -390,7 +390,7 @@ Get variable value from long variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -431,7 +431,7 @@ Get variable value from long variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -470,7 +470,7 @@ Get variable value from double variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -511,7 +511,7 @@ Get variable value from double variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -555,7 +555,7 @@ Get variable value, unit, sensor index, zone, subzone from a named measurement v
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -617,7 +617,7 @@ Set variable value, unit sensor index, zone and sub zone for a measurement varia
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -672,7 +672,7 @@ Get variable value from event variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -727,7 +727,7 @@ Get variable value from event variable
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -782,7 +782,7 @@ Get variable value from event variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -833,7 +833,7 @@ Get variable value from event variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -908,7 +908,7 @@ Get variable value from GUID variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -953,7 +953,7 @@ Set the value for GUID variable.
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -996,7 +996,7 @@ Get variable value from GUID variable. Array type.
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1041,7 +1041,7 @@ Get variable value from GUID variable. This is a variant where the GUID is store
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1085,7 +1085,7 @@ Get variable value from VSCP data variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1141,7 +1141,7 @@ Get variable value from VSCP data variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1191,7 +1191,7 @@ Get variable value from class variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1237,7 +1237,7 @@ Get variable value from class variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1279,7 +1279,7 @@ Get variable value from type variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1324,7 +1324,7 @@ Get variable value from type variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1365,7 +1365,7 @@ Get variable value from VSCP timestamp variable
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1399,7 +1399,7 @@ Set variable value from VSCP timstamp
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1434,7 +1434,7 @@ Get variable value from datetime variable. The returned value is on ISO form "YY
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1471,7 +1471,7 @@ Set variable value from dattime on ISO form "YYYY-MM-DDTHH:MM:SS"
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1506,7 +1506,7 @@ Get variable value from date variable. The returned value is on ISO form "YYYY-M
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1544,7 +1544,7 @@ Set variable value from dattime on ISO form "YYYY-MM-DD"
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1579,7 +1579,7 @@ Get variable value from time variable. The returned value is on ISO form "HH:MM:
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1617,7 +1617,7 @@ Set variable value from time on ISO form "HH:MM:SS"
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1652,7 +1652,7 @@ Get variable value from blob variable. The returned value is BASE64 encoded.
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1690,7 +1690,7 @@ Set variable value for a blob variable. The value is always expected to be BASE6
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1724,7 +1724,7 @@ Get variable value from MIME variable. The returned value is BASE64 encoded.
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1762,7 +1762,7 @@ Set variable value for a MIME variable. The value is always expected to be BASE6
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1796,7 +1796,7 @@ Get variable value from HTML variable. The returned value is BASE64 encoded.
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1834,7 +1834,7 @@ Set variable value for a HTML variable. The value is always expected to be BASE6
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1866,7 +1866,7 @@ Get variable value from JavaScript variable. The returned value is BASE64 encode
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1904,7 +1904,7 @@ Set variable value for a JavaScript variable. The value is always expected to be
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1936,7 +1936,7 @@ Get variable value from LUA script variable. The returned value is BASE64 encode
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -1974,7 +1974,7 @@ Set variable value for a LUA script variable. The value is always expected to be
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -2009,7 +2009,7 @@ Get variable value from LUARES variable. The returned value is BASE64 encoded.
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -2047,7 +2047,7 @@ Set variable value for a LUARES variable. The value is always expected to be BAS
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -2082,7 +2082,7 @@ Get variable value from UX1 (User interface version 1) variable. The returned va
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -2120,7 +2120,7 @@ Set variable value for a UX1 (User interface version 1) variable. The value is a
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -2154,7 +2154,7 @@ Get variable value from a DM row variable. The returned value is BASE64 encoded.
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -2192,7 +2192,7 @@ Set variable value for a DM row variable. The value is always expected to be BAS
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -2226,7 +2226,7 @@ Get variable value from a driver variable. The returned value is BASE64 encoded.
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -2264,7 +2264,7 @@ Set variable value for a driver variable. The value is always expected to be BAS
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -2298,7 +2298,7 @@ Get variable value from a user variable. The returned value is BASE64 encoded.
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -2336,7 +2336,7 @@ Set variable value for a user variable. The value is always expected to be BASE6
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -2371,7 +2371,7 @@ Get variable value from a filter variable. The returned value is BASE64 encoded.
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -2409,7 +2409,7 @@ Set variable value for a filter variable. The value is always expected to be BAS
 
 ####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ####  pName
 
@@ -2434,4 +2434,4 @@ Return VSCP_ERROR_SUCCESS on success, VSCP_ERROR_ERROR on failure. If the connec
 
 \\ 
 ----
-Copyright (c) 2000-2017 [Åke Hedman](mailto/akhe@grodansparadis.com), [Paradise of the Frog / Grodans Paradis AB](http://www.grodansparadis.com)
+Copyright (c) 2000-2017 [Åke Hedman](mailto/akhe@grodansparadis.com), [Paradise of the Frog / Grodans Paradis AB](https://www.grodansparadis.com)

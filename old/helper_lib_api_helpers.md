@@ -62,7 +62,7 @@ VSCP_ERROR_SUCCESS on success.
 int vscphlp_getTimeString( char *buf, size_t buf_len, time_t *t )
 `</code>`
 
-Get GMT time (http://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.3). 
+Get GMT time (https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.3). 
 
 Example result:  Sun, "06 Nov 1994 08:49:37 GMT"
 
@@ -2369,7 +2369,7 @@ int vscphlp_getVSCPMeasurementFloat64AsString(const vscpEvent *pEvent,
                                                  size_t len )
 `</code>`
 
-This method displays data stored in 32-bit floating point form ([IEEE 754](http://en.wikipedia.org/wiki/IEEE_floating_point)) as a string
+This method displays data stored in 32-bit floating point form ([IEEE 754](https://en.wikipedia.org/wiki/IEEE_floating_point)) as a string
 
 #####  pEvent
 
@@ -2719,7 +2719,7 @@ VSCP_ERROR_SUCCESS is returned if the event is a measurement, VSCP_ERROR_ERROR i
 int vscphlp_convertLevel1MeasuremenToLevel2Double( vscpEvent *pEvent )
 `</code>`
 
-Convert Level I measurement to a Level II float measurement event ([CLASS2.MEASUREMENT_FLOAT](http://www.vscp.org/docs/vscpspec/doku.php?id=class2.measurement_float)).
+Convert Level I measurement to a Level II float measurement event ([CLASS2.MEASUREMENT_FLOAT](https://docs.vscp.org/spec/latest/#/./class2.measurement_float)).
 
 ##### Return value
 
@@ -2732,7 +2732,7 @@ VSCP_ERROR_SUCCESS is returned if the measurement event is converted correctly, 
 int vscphlp_convertLevel1MeasuremenToLevel2String( vscpEvent *pEvent )
 `</code>`
 
-Convert Level I measurement to a Level II string measurement event ([CLASS2.MEASUREMENT_STRING](http://www.vscp.org/docs/vscpspec/doku.php?id=class2.measurement_str)).
+Convert Level I measurement to a Level II string measurement event ([CLASS2.MEASUREMENT_STRING](https://docs.vscp.org/spec/latest/#/./class2.measurement_str)).
 
 ##### Return value
 
@@ -2759,7 +2759,7 @@ Pointer to event that data should be written to.
 
 ##### type
 
-The VSCP type for the event. Must be one of the types in [CLASS1.MEASUREMENT](http://www.vscp.org/docs/vscpspec/doku.php?id=class1.measurement)
+The VSCP type for the event. Must be one of the types in [CLASS1.MEASUREMENT](https://docs.vscp.org/spec/latest/#/./class1.measurement)
 
 ##### value
 
@@ -2807,7 +2807,7 @@ Pointer to event that data should be written to.
 
 ##### type
 
-The VSCP type for the event. Must be one of the types in [CLASS1.MEASUREMENT](http://www.vscp.org/docs/vscpspec/doku.php?id=class1.measurement)
+The VSCP type for the event. Must be one of the types in [CLASS1.MEASUREMENT](https://docs.vscp.org/spec/latest/#/./class1.measurement)
 
 ##### value
 
@@ -2981,4 +2981,4 @@ VSCP_ERROR_SUCCESS is returned on success, VSCP_ERROR_BUFFER_TO_SMALL is returne
 
 \\ 
 ----
-Copyright (c) 2000-2017 [Åke Hedman](mailto/akhe@grodansparadis.com), [Paradise of the Frog / Grodans Paradis AB](http://www.grodansparadis.com)
+Copyright (c) 2000-2017 [Åke Hedman](mailto/akhe@grodansparadis.com), [Paradise of the Frog / Grodans Paradis AB](https://www.grodansparadis.com)

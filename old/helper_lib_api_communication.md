@@ -20,7 +20,7 @@ This is the timeout in seconds used when checking for replies after commands has
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ##### timeout
 
@@ -48,7 +48,7 @@ This is the sleep time in milliseconds used to wait for the server to reply to a
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ##### secondsTimeout
 
@@ -76,7 +76,7 @@ Check if the session is active or not.
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ##### Return value
 
@@ -125,7 +125,7 @@ Send a command over the communication link. The command should have "\r\n" to it
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ##### cmd
 
@@ -172,7 +172,7 @@ Check reply data for "+OK"/"-OK" on server.
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ##### bClear
 
@@ -218,7 +218,7 @@ Clear the local communication input queue. This is the same things that is done 
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ##### Return value
 
@@ -266,7 +266,7 @@ Opens a session to the TCP/IP interface of a VSCP server.
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  pHost
 
@@ -280,7 +280,7 @@ For SSL connections, specify CERT if server is requiring client auth. Specify CA
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  pUserName
 
@@ -342,7 +342,7 @@ int pyvscphlp_openInterface( handle,
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  pInterface
 
@@ -365,7 +365,7 @@ Flags to use for the interface. Currently not used.
 
 #####  Return value
 
-Possible return values are the same as for [vscphlp_doCmdOpen](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api&#vscphlp_docmdopen)
+Possible return values are the same as for [vscphlp_doCmdOpen](./vscphlp_docmdopen.md)
 
 ##### Example (c/c++)
 
@@ -410,7 +410,7 @@ Close the interface.
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ##### return==  
 
@@ -452,7 +452,7 @@ This is a command that can be used for test purposes. It does not do anything el
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  Return value
 
@@ -498,7 +498,7 @@ Clear the receiving side (to us) event queue on the VSCP daemon.
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ##### Return value
 
@@ -549,7 +549,7 @@ Note that there is no need to calculate a crc for the data it is only used as pl
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  pEvent
 
@@ -663,7 +663,7 @@ Note that there is no need to calculate a crc for the data it is only used as pl
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  pEvent
 
@@ -772,7 +772,7 @@ For Python use of **pyvscphlp_receiveEvent** may be simpler as there id no dynam
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  pEvent
 
@@ -861,7 +861,7 @@ Receive a VSCP event. The difference to vscphlp_receiveEvent is that the vscphlp
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  pEvent
 
@@ -930,7 +930,7 @@ Check the number of events (if any) that are available in the remote input queue
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  pCount (c/c++)
 
@@ -995,7 +995,7 @@ Enter the receive loop. After this command only [vscphlp_quitReceiveLoop](#vscph
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 
 #####  Return value
@@ -1062,7 +1062,7 @@ Quit the receive loop.
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 
 #####  Return value
@@ -1111,7 +1111,7 @@ For Python use of **pyvscphlp_receiveEvent** may be simpler as there id no dynam
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ##### pEvent
 
@@ -1198,7 +1198,7 @@ Blocking receive one VSCP event from the remote VSCP server if there is one avai
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ##### pEvent (c/c++)
 
@@ -1286,7 +1286,7 @@ Set VSCP filter/mask.
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####   pFilter (c/c++)
 
@@ -1448,7 +1448,7 @@ Get VSCP statistics.
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  pStatistics (c/c++)
 
@@ -1544,7 +1544,7 @@ Fetch the status structure from the VSCP server.
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  pstatus (c/c++)
 
@@ -1609,7 +1609,7 @@ Get the version of the remote VSCP server.
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ##### MajorVer
 
@@ -1671,7 +1671,7 @@ Fetch the dll version from the VSCP server. This is the version of the interface
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  pdllversion (c/c++)
 
@@ -1728,7 +1728,7 @@ Fetch the vendor string from the driver.
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  pVendor (c/c++)
 
@@ -1789,7 +1789,7 @@ Get driver information. A buffer with size enough to hold the XML data must be s
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 ##### pInfo
 
@@ -1849,7 +1849,7 @@ Shut down the daemon. Needless to say this is a privileged command on the server
 
 #####  handle
 
-Handle for the communication channel obtained from a call to [vscphlp_newSession](http://www.vscp.org/docs/vscphelper/doku.php?id=non_graphic_lib_api#vscphlp_newsession).
+Handle for the communication channel obtained from a call to [vscphlp_newSession](./vscphlp_newsession.md).
 
 #####  Return value 
 
@@ -1881,4 +1881,4 @@ if VSCP_ERROR_SUCCESS != rv :
 
 \\ 
 ----
-Copyright (c) 2000-2017 [Åke Hedman](mailto/akhe@grodansparadis.com), [Paradise of the Frog / Grodans Paradis AB](http://www.grodansparadis.com)
+Copyright (c) 2000-2017 [Åke Hedman](mailto/akhe@grodansparadis.com), [Paradise of the Frog / Grodans Paradis AB](https://www.grodansparadis.com)

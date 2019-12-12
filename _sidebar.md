@@ -400,7 +400,7 @@
     * [Using the library](canal_using.md)
 
 * Other documentation
-  * [VSCP documentation portal](http://docs.vscp.org)
+  * [VSCP documentation portal](https://docs.vscp.org)
 
 
 
