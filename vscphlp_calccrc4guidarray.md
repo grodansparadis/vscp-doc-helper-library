@@ -7,7 +7,7 @@ unsigned char vscphlp_calcCRC4GUIDArray( unsigned char *pguid )
 ### Parameters
 
 #### pguid
-Array of sixteen bytes containing GUID on MSB→LSB order.
+Array of sixteen bytes containing GUID on MSB→LSB order. 
 
 
 ### Return Value
