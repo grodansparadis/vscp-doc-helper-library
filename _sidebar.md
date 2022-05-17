@@ -5,7 +5,7 @@
 * Using the library
  * [Using the library](using.md)
  * [Return values and erro handling](error_handling.md)
- * [Using with c](c_using.md)
+ * [Using with C/C++](c_using.md)
  * [Using with Python](python_using.md)
 
 * Methods in library
